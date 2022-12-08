@@ -1,4 +1,4 @@
-/* header 박스 style 입니다. */
+/* header */
 
 .header {
   height: 90px;
@@ -123,6 +123,93 @@ nav > ul {
   align-items: center;
 }
 
+/* site_map */
+
+.site_map {
+  display: none;
+}
+
+.site_map_open {
+  display: block;
+}
+
+/* site_map 상단 */
+
+.site_map {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  padding: 40px 100px;
+  z-index: 1000;
+}
+
+.site_map_upper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.site_map_logo {
+  width: 25%;
+}
+
+.site_map_header_ui {
+  width: 25%;
+}
+
+.site_map_logo a img {
+  width: 80%;
+}
+.site_map_close_btn a img {
+  width: 10%;
+}
+
+/* site_map 하단 */
+
+.site_map_nav {
+  height: 100%;
+}
+
+.site_map_dep1_ul {
+  display: flex;
+  padding-top: 80px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.site_map_dep1_li {
+  width: 30%;
+  position: relative;
+  padding-bottom: 10em;
+}
+
+.site_map_dep1_li > a {
+  font-size: 30px;
+  color: #000;
+}
+
+.site_map_dep2_ul {
+  padding-top: 25px;
+}
+
+.site_map_dep2_li {
+  line-height: 2rem;
+  margin-top: 20px;
+}
+
+.site_map_dep2_li > a {
+  font-size: 22px;
+  color: #444;
+}
+.site_map_dep2_li > a:hover {
+  background-color: #029cc32b;
+  transition: 0.3s;
+}
+
 /* main-banner */
 .main_bn {
   height: 100vh;
@@ -132,30 +219,40 @@ nav > ul {
   position: relative;
 }
 
+.main_bn_title h2 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 9rem;
+  color: #fff;
+  position: absolute;
+  top: 300px;
+  left: 116px;
+}
 .main_bn_title > h3 {
   position: absolute;
-  left: 150px;
-  top: 220px;
+  left: 116px;
+  bottom: 370px;
 }
-
 .main_bn_title h3 {
-  font-size: 48px;
+  font-size: 45px;
   font-weight: 500;
   color: #fff;
 }
-
-.main_bn_title h1 {
-  font-size: 90px;
-  font-weight: 700;
-  line-height: 9rem;
-  color: #fff;
-}
-
 .main_bn_title p {
-  font-size: 22px;
-  font-weight: 400;
-  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--sub);
+  text-align: center;
+  border: 2px solid #fff;
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 10px 10px;
   line-height: 3rem;
+  width: 350px;
+  height: 75px;
+  position: absolute;
+  bottom: 205px;
+  left: 118px;
 }
 
 /* about */
@@ -476,7 +573,7 @@ nav > ul {
   border-top: 1px solid #ccc;
 }
 
-/* footer 의 왼쪽 영역입니다. */
+/* footer 의 왼쪽 영역 */
 
 .footer_left {
   padding: 26px 0 48px 10.41666%;
@@ -516,7 +613,7 @@ nav > ul {
   font-size: 12px;
 }
 
-/* footer 의 오른쪽 영역입니다. */
+/* footer 의 오른쪽 영역 */
 
 .footer_right {
   padding: 41px 10.41666% 77px 0;
