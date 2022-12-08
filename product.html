@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>제품정보</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!--폰트-->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="./css/product-pc.css"
+      media="screen and (min-width:767px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/productmobile.css"
+      media="screen and (max-width:767px)"
+    />
+    <!-- 여기 다시 고쳐야함 모바일 - 찍기 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/product.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="logo">
+        <a href="../index.html">
+          <img src="../main/images/main-logo.jpg" alt="logo" />
+        </a>
+      </h1>
+      <nav class="header_nav">
+        <ul class="dep1_ul">
+          <li class="dep1_li">
+            <a href="./about.html"
+              >기업정보
+              <ul class="dep2_ul">
+                <li class="dep2_li">
+                  <a href="./about/about.html">기업소개 </a>
+                </li>
+                <li class="dep2_li">
+                  <a href="./about/about.html">회사연혁</a>
+                </li>
+                <li class="dep2_li">
+                  <a href="./about/about.html">위치안내</a>
+                </li>
+              </ul>
+            </a>
+          </li>
+          <li class="dep1_li">
+            <a href="../product/product.html"
+              >제품정보
+              <ul class="dep2_ul">
+                <li class="dep2_li">
+                  <a href="../product/product.html">제품검색</a>
+                </li>
+                <li class="dep2_li"><a href="../product/product.html">제품소식 </a></li>
+                <li class="dep2_li"><a href="../product/product.html">약국찾기 </a></li>
+              </ul>
+            </a>
+          </li>
+          <li class="dep1_li">
+            <a href="#"
+              >연구개발
+              <ul class="dep2_ul">
+                <li class="dep2_li">
+                  <a href="#">연구센터소개 </a>
+                </li>
+                <li class="dep2_li">
+                  <a href="#">R&D 비전</a>
+                </li>
+                <li class="dep2_li">
+                  <a href="#">주요연구성과</a>
+                </li>
+              </ul>
+            </a>
+          </li>
+          <li class="dep1_li">
+            <a href="#"
+              >윤리경영
+              <ul class="dep2_ul">
+                <li class="dep2_li">
+                  <a href="#">윤리경영 </a>
+                </li>
+                <li class="dep2_li"><a href="#">윤리강령 </a></li>
+              </ul>
+            </a>
+          </li>
+          <li class="dep1_li">
+            <a href="#"
+              >홍보센터
+              <ul class="dep2_ul">
+                <li class="dep2_li">
+                  <a href="#">공지&뉴스</a>
+                </li>
+                <li class="dep2_li"><a href="#">홍보영상 </a></li>
+                <li class="dep2_li"><a href="#">인재채용</a></li>
+              </ul>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header_ui">
+        <div class="mall">
+          <img src="../main/images/icon-cart.svg" alt="mall" />
+          <a href="https://dmall.co.kr/product/index.html"
+            >&nbsp;동아제약 공식몰&nbsp;</a
+          >
+        </div>
+        <!--mall-->
+        <p>&nbsp;| &nbsp;</p>
+        <div class="lang">
+          <a href="#"
+            ><img
+              src="../main/images/icon-lang.svg"
+              alt="lang"
+            />&nbsp;&nbsp;EN</a
+          >
+        </div>
+        <div class="m_btn">
+          <a href="#">
+            <img src="../main/images/icon-menu.svg" alt="site-map-menu" />
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- site map -->
+    <div class="site_map">
+      <div class="site_map_upper">
+        <h1 class="site_map_logo">
+          <a href="./index.html">
+            <img src="../main/images/main-logo.jpg" alt="logo" />
+          </a>
+        </h1>
+        <div class="site_map_header_ui">
+          <div class="site_map_close_btn">
+            <a href="#">
+              <img src="../main/images/icon-close.svg" alt="site_close_btn" />
+            </a>
+          </div>
+        </div>
+        <!--site-map-upper-->
+      </div>
+      <!--site-map-->
+      <nav class="site_map_nav">
+        <ul class="site_map_dep1_ul">
+          <li class="site_map_dep1_li">
+            <a href="./about/about.html"
+              >기업정보
+              <ul class="site_map_dep2_ul">
+                <li class="site_map_dep2_li">
+                  <a href="./about/about.html">기업소개</a>
+                </li>
+                <li class="site_map_dep2_li">
+                  <a href="./about/about.html">회사연혁</a>
+                </li>
+                <li class="site_map_dep2_li">
+                  <a href="./about/about.html">위치안내</a>
+                </li>
+              </ul>
+            </a>
+          </li>
+          <li class="site_map_dep1_li">
+            <a href="#"
+              >제품정보
+              <ul class="site_map_dep2_ul">
+                <li class="site_map_dep2_li">
+                  <a href="./product/product.html">제품검색</a>
+                </li>
+                <li class="site_map_dep2_li">
+                  <a href="./product/product.html">제품소식 </a>
+                </li>
+                <li class="site_map_dep2_li">
+                  <a href="./product/product.html">약국찾기 </a>
+                </li>
+              </ul>
+            </a>
+          </li>
+          <li class="site_map_dep1_li">
+            <a href="#"
+              >연구개발
+              <ul class="site_map_dep2_ul">
+                <li class="site_map_dep2_li">
+                  <a href="#">연구센터소개</a>
+                </li>
+                <li class="site_map_dep2_li">
+                  <a href="#">R&D 비전</a>
+                </li>
+                <li class="site_map_dep2_li">
+                  <a href="#">주요연구성과</a>
+                </li>
+              </ul>
+            </a>
+          </li>
+          <li class="site_map_dep1_li">
+            <a href="#"
+              >윤리경영
+              <ul class="site_map_dep2_ul">
+                <li class="site_map_dep2_li">
+                  <a href="#">윤리강령</a>
+                </li>
+                <li class="site_map_dep2_li"><a href="#">상담/FAQ</a></li>
+                <li class="site_map_dep2_li"><a href="#">인재채용</a></li>
+              </ul>
+            </a>
+          </li>
+          <li class="site_map_dep1_li">
+            <a href="#"
+              >홍보센터
+              <ul class="site_map_dep2_ul">
+                <li class="site_map_dep2_li">
+                  <a href="#">공지 & 뉴스</a>
+                </li>
+                <li class="site_map_dep2_li">
+                  <a href="#">홍보영상</a>
+                </li>
+                <li class="site_map_dep2_li">
+                  <a href="#">인재채용</a>
+                </li>
+              </ul>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- 사이트맵 -->
+    <div class="sub-bn">
+      <div class="sub-bn-bg">
+        <h1>제품정보</h1>
+      </div>
+    </div>
+    <!--sub-bn-->
+    <main class="product">
+    <div class="container">
+    <div class="Lnb">
+      <img src="./images/lnb-icon-home.svg" alt="home" />
+      <p>|&nbsp;&nbsp;&nbsp;&nbsp;제품정보&nbsp;&nbsp;&nbsp;&nbsp;|</p>
+      <p class="lnb-color">&nbsp;&nbsp;&nbsp;&nbsp;제품검색</p>
+    </div>
+    <!--lnb-->
+    <div class="sub-title">
+      <h1>제품검색</h1>
+    </div>
+    <div class="search-box">
+      <div class="search-box2">
+      <h2>제품검색</h2>
+      <form action="search"></form>
+        <input type="search" id="search" placeholder="&nbsp;검색어를 입력해주세요">
+      <a href="#"><img src="./images/icon-search.svg" alt="search"></a>
+    </div
+    ><!--box2-->
+    <div class="depth2">
+      <ul class="depth2_ul">
+        <li class="depth2_li"><a href="#">
+        <img src="./images/icon-medicine.svg" alt="medicine">
+        <h3>일반의약품</h3>
+        </a></li>
+        <li class="depth2_li"><a href="#">
+          <img src="./images/icon-mask-light.svg" alt="etc">
+          <h3>의약외품</h3>
+        </a></li>
+        <li class="depth2_li"><a href="#">
+            <img src="./images/icon_muscle.svg" alt="healthy-food">
+            <h3>건강기능식품</h3>
+         </a></li>
+        <li class="depth2_li"><a href="#">
+              <img src="./images/icon_health.svg" alt="cosmetic">
+              <h3>생활건강/화장품</h3>
+        </a></li>
+      </ul>
+    </div><!--depth2-->
+    </div><!--search-box-->
+</div><!--container--> 
+  
+  <div class="product-list">
+    <div class="container">
+      <ul class="pro_ul">
+        <li class="pro_li-1"><a href="#">
+          <img src="./images/p1.jpg" alt="product1">
+          <h3>노스카나겔</h3>
+          <ul class="pro_li_ul">
+            <li class="pro_li_li">제품구분 : 일반의약품</li>
+            <li class="pro_li_li">효능분류 : 조직세포기능용의약품</li>
+          </ul><!--pro_li_ul-->
+        </a></li>
+        <li class="pro_li-1"><a href="#">
+          <img src="./images/p2.jpg" alt="product2">
+          <h3>덴파사캡슐</h3>
+          <ul class="pro_li_ul">
+            <li class="pro_li_li">제품구분 : 일반의약품</li>
+            <li class="pro_li_li">효능분류 : 치과구강용약</li>
+          </ul><!--pro_li_ul-->
+        </a></li>
+        <li class="pro_li-1"><a href="#">
+          <img src="./images/p3.jpg" alt="product3">
+          <h3>드라이문트겔</h3>
+          <ul class="pro_li_ul">
+            <li class="pro_li_li">제품구분 : 일반의약품</li>
+            <li class="pro_li_li">효능분류 : 치과구강용약</li>
+          </ul><!--pro_li_ul-->
+        </a></li>
+        <li class="pro_li-1"><a href="#">
+          <img src="./images/p4.jpg" alt="product4">
+          <h3>마그랑비 연질캡슐</h3>
+          <ul class="pro_li_ul">
+            <li class="pro_li_li">제품구분 : 일반의약품</li>
+            <li class="pro_li_li">효능분류 : 기타의 비타민제</li>
+          </ul><!--pro_li_ul-->
+        </a></li>
+        <li class="pro_li-2"><a href="#">
+          <img src="./images/p5.jpg" alt="product5">
+          <h3>박카스 에프액</h3>
+          <ul class="pro_li_ul">
+            <li class="pro_li_li">제품구분 : 의약외품</li>
+            <li class="pro_li_li">효능분류 : 자양강장변질제</li>
+          </ul><!--pro_li_ul-->
+        </a></li>
+        <li class="pro_li-2"><a href="#">
+          <img src="./images/p6.jpg" alt="product6">
+          <h3>검가드 치약</h3>
+          <ul class="pro_li_ul">
+            <li class="pro_li_li">제품구분 : 의약외품</li>
+            <li class="pro_li_li">효능분류 : 치약제 </li>
+          </ul><!--pro_li_ul-->
+        </a></li>
+        <li class="pro_li-4"><a href="#">
+          <img src="./images/p7.jpg" alt="product7">
+          <h3>디에이덤 레몬 플러스 캔디</h3>
+          <ul class="pro_li_ul">
+            <li class="pro_li_li">제품구분 : 생활건강</li>
+            <li class="pro_li_li">효능분류 : 캔디류(식품)</li>
+          </ul><!--pro_li_ul-->
+        </a></li>
+        <li class="pro_li-4"><a href="#">
+          <img src="./images/p8.jpg" alt="product8">
+          <h3>아일로 화이트치온</h3>
+          <ul class="pro_li_ul">
+            <li class="pro_li_li">제품구분 : 생활건강</li>
+            <li class="pro_li_li">효능분류 : 혼합비타민제</li>
+          </ul><!--pro_li_ul-->
+        </a></li>
+               <li class="pro_li-3"><a href="#">
+          <img src="./images/p9.jpg" alt="product9">
+          <h3>비타민C 비타그란</h3>
+          <ul class="pro_li_ul">
+            <li class="pro_li_li">제품구분 : 건강기능식품</li>
+            <li class="pro_li_li">효능분류 : 영양제</li>
+          </ul><!--pro_li_ul-->
+        </a></li>
+      </ul><!--pro_ul-->
+    </div><!--container-->
+  </div><!--product-list-->
+
+  <div class="dial">
+    <div class="numbers">
+      <button class="leftMax">〈〈</button>
+      <button class="left">〈</button>
+      <a href="#">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <button class="right">〉</button>
+      <button class="rightMax">〉〉</button>
+    </div>
+    <!--numbers-->
+  </div>
+  <!--dial-->  
+</main><!--product-->
+
+<footer class="footer">
+  <div class="footer_left">
+    <div class="footer_left_upper">
+      <a href="./index.html">
+        <img src="../main/images/f-logo.jpg" alt="f-logo" />
+      </a>
+      <div class="footer_left_info_1">
+        <p><a href="#">개인정보방침</a></p>
+        <p><a href="#">이용약관</a></p>
+      </div>
+    </div>
+
+    <div class="footer_left_info_2">
+      <p>
+        서울시 동대문구 천호대로64  |  대표번호 82-02-920-8112  |  팩스  82-02-920-8708   |  E-mail  : donga@naver.com <br>  
+        사업자 등록 번호 : 204-86-40118   |  ⓒ2013.Dong-A All rights reserved.
+      </p>
+    </div>
+  </div>
+  <div class="footer_right">
+    <div class="family_site">
+      <p>Family Site</p>
+      <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 1.25L7.5 7.75L14 1.25" stroke="black" stroke-width="1.3px" />
+      </svg>
+    </div>
+    <div class="sns_btn">
+      <a href="https://www.naver.com/">
+        <img src="../main/images/icon-naver.svg" alt="naver_btn" />
+      </a>
+      <a href="https://www.facebook.com/">
+        <img src="../main/images/icon-facebook.svg" alt="facebook_btn" />
+      </a>
+      <a href="https://www.instagram.com/">
+        <img src="../main/images/icon-instagram.svg" alt="instagram_btn" />
+      </a>
+      <a href="https://www.youtube.com/">
+        <img src="../main/images/icon-youtube.svg" alt="youtube_btn" />
+      </a>
+    </div>
+  </div>
+</footer>
+  </div>
+  </body>
+</html>
