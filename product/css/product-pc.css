@@ -122,7 +122,92 @@ nav > ul {
   display: flex;
   align-items: center;
 }
+/* site_map */
 
+.site_map {
+  display: none;
+}
+
+.site_map_open {
+  display: block;
+}
+
+/* site_map 상단 */
+
+.site_map {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  padding: 40px 100px;
+  z-index: 1000;
+}
+
+.site_map_upper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.site_map_logo {
+  width: 25%;
+}
+
+.site_map_header_ui {
+  width: 25%;
+}
+
+.site_map_logo a img {
+  width: 80%;
+}
+.site_map_close_btn a img {
+  width: 10%;
+}
+
+/* site_map 하단 */
+
+.site_map_nav {
+  height: 100%;
+}
+
+.site_map_dep1_ul {
+  display: flex;
+  padding-top: 80px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.site_map_dep1_li {
+  width: 30%;
+  position: relative;
+  padding-bottom: 10em;
+}
+
+.site_map_dep1_li > a {
+  font-size: 30px;
+  color: #000;
+}
+
+.site_map_dep2_ul {
+  padding-top: 25px;
+}
+
+.site_map_dep2_li {
+  line-height: 2rem;
+  margin-top: 20px;
+}
+
+.site_map_dep2_li > a {
+  font-size: 22px;
+  color: #444;
+}
+.site_map_dep2_li > a:hover {
+  background-color: #029cc32b;
+  transition: 0.3s;
+}
 /* sub-banner  */
 
 .sub-bn .sub-bn-bg {
@@ -171,6 +256,16 @@ nav > ul {
   margin-bottom: 95px;
 }
 
+/* js */
+/* 선택지 = 제외할 항목을 none으로 하기 */
+.pro_ul .none {
+  display: none;
+}
+/* none으로 했으면 꼭 선택지를 addclass-show 써준다 */
+.pro_ul .show {
+  display: block;
+}
+
 /* search-box */
 
 .search-box {
@@ -198,11 +293,6 @@ nav > ul {
   background-color: none;
   margin-left: 1em;
   margin-right: 1em;
-}
-
-/* js */
-.pro_ul .pro_li-1.show {
-  display: block;
 }
 
 /* search-box > depth2_ul */
@@ -245,18 +335,24 @@ nav > ul {
   gap: 70px;
 }
 
-.pro_ul .pro_li a > h3 {
+.pro_ul .pro_li-1 a > h3,
+.pro_ul .pro_li-2 a > h3,
+.pro_ul .pro_li-3 a > h3,
+.pro_ul .pro_li-4 a > h3 {
   font-size: 20px;
   font-weight: 500;
   color: #000;
   margin-top: 10px;
   margin-bottom: 5px;
 }
-.pro_ul .pro_li a .pro_li_ul {
+.pro_ul .pro_li-1 a .pro_li_ul,
+.pro_ul .pro_li-2 a .pro_li_ul,
+.pro_ul .pro_li-3 a .pro_li_ul,
+.pro_ul .pro_li-4 a .pro_li_ul {
   list-style-type: square;
   margin-left: 2em;
 }
-.pro_ul .pro_li a .pro_li_ul .pro_li_li {
+.pro_li_ul .pro_li_li {
   color: #000;
   font-size: 18px;
 }

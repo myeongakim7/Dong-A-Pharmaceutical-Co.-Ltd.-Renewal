@@ -1,0 +1,395 @@
+/* header */
+
+.header {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  z-index: 1;
+  position: relative;
+}
+
+.header a {
+  color: #000;
+}
+
+/* header 좌측 로고 */
+
+.logo a img {
+  width: 152.57px;
+  height: 58px;
+}
+
+.logo {
+  height: 90px;
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 16px;
+}
+/* nav */
+.header_nav {
+  display: none;
+}
+/* header 우측 ui */
+
+.header_ui {
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+
+.mall {
+  display: none;
+}
+.header_ui .between {
+  display: none;
+}
+.lang {
+  display: none;
+}
+
+.m_btn a {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 42px;
+  right: 21px;
+}
+
+/* site-map */
+.site_map {
+  display: none;
+}
+
+.site_map_open {
+  display: block;
+}
+
+/* site_map 상단*/
+
+.site_map {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.site_map_upper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site_map_logo a img {
+  width: 100x;
+  height: 40px;
+}
+
+/* site_map 하단*/
+
+.site_map_nav {
+  height: 100%;
+}
+
+.site_map_dep1_ul {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  text-align: left;
+}
+
+.site_map_dep1_li {
+  margin-top: 30px;
+  border-bottom: 1px solid #666;
+  position: relative;
+}
+
+.site_map_dep1_li > a {
+  font-size: 25px;
+  color: #000;
+  font-weight: 500;
+}
+
+.site_map_dep1_li::after {
+  content: "";
+  width: 0px;
+  height: 3px;
+  background: var(--main);
+  position: absolute;
+  top: 40px;
+  transition: 0.5s;
+}
+
+.site_map_dep1_li:hover::after {
+  width: 130px;
+}
+
+.site_map_dep2_ul {
+  max-height: 0;
+  overflow: hidden;
+  margin: 10px 0;
+  transition: 1s;
+}
+
+.site_map_dep2_li {
+  margin-top: 10px;
+}
+
+.site_map_dep2_li > a {
+  font-size: 20px;
+  color: var(--sub);
+}
+
+.site_map_dep1_li:hover > ul {
+  max-height: 240px;
+}
+
+/* sub-banner */
+
+.sub-bn .sub-bn-bg {
+  height: 240px;
+  background-image: url(../images/sub-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub-bn .sub-bn-bg > h1 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #fff;
+}
+/* container */
+
+.product .container {
+  width: 280px;
+  margin: 0 auto;
+  /* background-color: #ccc; */
+}
+
+/* lnb */
+.product .container .Lnb {
+  display: none;
+}
+
+/* sub-title */
+
+.sub-title > h1 {
+  font-size: 24px;
+  font-weight: 500;
+  display: inline-block;
+  border-top: 3px solid var(--main);
+  margin-top: 50px;
+}
+
+/* js */
+/* 선택지 = 제외할 항목을 none으로 하기 */
+.pro_ul .none {
+  display: none;
+}
+/* none으로 했으면 꼭 선택지를 addclass-show 써준다 */
+.pro_ul .show {
+  display: block;
+}
+
+/* search-box */
+
+.search-box {
+  height: 528px;
+  /* outline: 1px solid black; */
+  padding: 50px 0px;
+}
+
+.search-box .search-box2 {
+  display: flex;
+  margin-top: 50px;
+}
+.search-box .search-box2 > h2 {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.search-box .search-box2 #search {
+  width: 170px;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 15px;
+  background-color: none;
+  margin-left: 0.5em;
+}
+
+.search-box .search-box2 a img {
+  width: 50%;
+}
+
+/* search-box > depth2_ul */
+
+.search-box > .depth2 > .depth2_ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 50px;
+}
+.search-box > .depth2 > .depth2_ul > .depth2_li {
+  width: 130px;
+  height: 125px;
+  border: 1px solid #b7b2b2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.search-box .depth2 > .depth2_ul .depth2_li a img {
+  width: 40%;
+}
+.search-box .depth2 > .depth2_ul > .depth2_li > a h3 {
+  color: var(--sub);
+  font-size: 18px;
+}
+
+/* product-list */
+.product-list {
+  background-color: var(--bg);
+}
+
+.product-list .container {
+  width: 280px;
+  height: 1300px;
+  background-color: var(--bg);
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.product-list .container .pro_ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+.product-list .container .pro_ul img {
+  width: 120px;
+  height: 120px;
+}
+
+.pro_ul .pro_li-1 a > h3,
+.pro_ul .pro_li-2 a > h3,
+.pro_ul .pro_li-3 a > h3,
+.pro_ul .pro_li-4 a > h3 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #000;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.pro_ul .pro_li-1 a .pro_li_ul,
+.pro_ul .pro_li-2 a .pro_li_ul,
+.pro_ul .pro_li-3 a .pro_li_ul,
+.pro_ul .pro_li-4 a .pro_li_ul {
+  list-style-type: none;
+  /* margin-left: 2em; */
+  margin-bottom: 30px;
+}
+.pro_li_ul .pro_li_li {
+  color: #000;
+  font-size: 13px;
+}
+
+/* dial */
+
+.dial {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.product .dial .numbers {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+.product .dial .numbers button {
+  color: #000;
+  background-color: transparent;
+  border: none;
+}
+.product .dial .numbers a {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #000;
+}
+.product .dial .numbers .leftMax {
+  margin-right: 12px;
+}
+.product .dial .numbers .left {
+  margin-right: 10px;
+}
+.product .dial .numbers .right {
+  margin-left: 10px;
+}
+.product .dial .numbers .rightMax {
+  margin-left: 12px;
+}
+
+/* footer */
+
+.footer {
+  margin-top: 100px;
+  height: 223px;
+  display: flex;
+  border-top: 1px solid #ccc;
+  padding: 20px;
+}
+
+/* footer 왼쪽 영역*/
+
+.footer_left_upper a img {
+  display: none;
+}
+
+.footer_left_upper a {
+  color: #000;
+}
+
+.footer_left_info_1 p:first-child {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer_left_info_1 p:last-child {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.footer_left_info_2 {
+  margin-top: 30px;
+  font-size: 12px;
+  width: 97%;
+}
+
+/* footer 오른쪽 영역 */
+
+.footer_right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 25px;
+  width: 116px;
+}
+
+.sns_btn {
+  width: 170px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.family_site {
+  display: none;
+}
