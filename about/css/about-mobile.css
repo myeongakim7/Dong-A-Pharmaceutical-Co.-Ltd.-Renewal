@@ -299,3 +299,62 @@
   max-width: 100%;
   height: 400px;
 }
+
+/* footer */
+
+.footer {
+  margin-top: 100px;
+  height: 223px;
+  display: flex;
+  border-top: 1px solid #ccc;
+  padding: 20px;
+}
+
+/* footer 왼쪽 영역*/
+
+.footer_left_upper a img {
+  display: none;
+}
+
+.footer_left_upper a {
+  color: #000;
+}
+
+.footer_left_info_1 p:first-child {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer_left_info_1 p:last-child {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.footer_left_info_2 {
+  margin-top: 30px;
+  font-size: 12px;
+  width: 80%;
+}
+
+/* footer 오른쪽 영역 */
+
+.footer_right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 25px;
+  width: 116px;
+}
+
+.sns_btn {
+  width: 170px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.family_site {
+  display: none;
+}

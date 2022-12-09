@@ -506,3 +506,80 @@ nav > ul {
   max-width: 1520px;
   margin: 0 auto;
 }
+/* footer */
+.footer {
+  margin-top: 300px;
+  height: 220px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #ccc;
+}
+
+/* footer 의 왼쪽 영역 */
+
+.footer_left {
+  padding: 26px 0 48px 10.41666%;
+}
+
+.footer_left_upper {
+  height: 67px;
+  display: flex;
+}
+
+.footer_left_upper a img {
+  width: 143px;
+  height: 55px;
+}
+
+.footer_left_info_1 {
+  display: flex;
+  padding: 24px 0 0 39px;
+}
+
+.footer_left_upper a {
+  color: #000;
+}
+
+.footer_left_info_1 p:first-child {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer_left_info_1 p:last-child {
+  font-size: 14px;
+  margin-left: 33px;
+}
+
+.footer_left_info_2 {
+  margin-top: 35px;
+  font-size: 12px;
+}
+
+/* footer 의 오른쪽 영역 */
+
+.footer_right {
+  padding: 41px 10.41666% 77px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.sns_btn {
+  width: 170px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.family_site {
+  width: 204px;
+  border-top: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
