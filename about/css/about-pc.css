@@ -269,11 +269,16 @@ nav > ul {
   width: 1520px;
 }
 .intro-box .intro-img {
-  /* height: 500px; */
+  height: 500px;
+  width: 100%;
+  background-image: url(/about/images/about1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 100px;
 }
 .intro-box .intro-img img {
   width: 100%;
-  margin-bottom: 100px;
 }
 .intro-box .intro-text p {
   font-size: 30px;
@@ -297,10 +302,15 @@ nav > ul {
   height: 810px;
 }
 
-.vision-img {
+.vision1 .vision-img {
   height: 810px;
+  width: 100%;
+  background-image: url(/about/images/vision1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
-.vision-img img {
+.vision1 .vision-img img {
   width: 100%;
 }
 
@@ -313,7 +323,7 @@ nav > ul {
   font-size: 40px;
   font-weight: 700;
   position: absolute;
-  top: 250px;
+  top: 260px;
   left: 55px;
 }
 .vision1 .text-box p {
@@ -324,7 +334,22 @@ nav > ul {
   top: 360px;
   left: 55px;
 }
-
+.vision1 .text-box p:nth-child(2) {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  position: absolute;
+  top: 455px;
+  left: 55px;
+}
+.vision1 .text-box p:last-child {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  position: absolute;
+  top: 550px;
+  left: 55px;
+}
 /* .vision2 */
 
 .vision2 {
@@ -339,15 +364,22 @@ nav > ul {
   width: 1520px;
 }
 
-.vision-img {
-  height: 560px;
+.vision2 .vision-img2 {
+  width: 900px;
+  height: 810px;
+  background-image: url(/about/images/vision2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
-.vision-img img {
+
+.vision2 .vision-img img {
   width: 100%;
 }
 
 .vision2 .text-box {
   width: 620px;
+  height: 810px;
   position: relative;
 }
 
@@ -363,9 +395,15 @@ nav > ul {
   font-weight: 400;
   line-height: 30px;
   position: absolute;
-  bottom: 280px;
+  bottom: 200px;
   left: 0;
 }
+.vision2 .text-box .text-box-p {
+  font-size: 18px;
+  width: 450px;
+  height: 200px;
+}
+
 /* vision 3 */
 
 .vision3 {
@@ -382,10 +420,15 @@ nav > ul {
   height: 810px;
 }
 
-.vision-img {
+.vision3 .vision-img {
+  width: 100%;
   height: 810px;
+  background-image: url(/about/images/vision3.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
-.vision-img img {
+.vision3 .vision-img img {
   width: 100%;
 }
 
@@ -412,12 +455,8 @@ nav > ul {
 }
 
 /* contact */
-.cotact .container {
+.contact .container {
   width: 1520px;
-}
-
-.contact .contact-bg {
-  margin-bottom: 300px;
 }
 
 .contact .menu {
