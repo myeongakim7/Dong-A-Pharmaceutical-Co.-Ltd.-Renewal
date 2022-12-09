@@ -211,7 +211,7 @@
 
 /* Ethical management */
 .ethic {
-  margin: 50px 0;
+  padding: 50px 0;
 }
 
 .ethic .container {
@@ -232,7 +232,6 @@
   font-weight: 500;
   border-top: 3px solid var(--main);
   display: inline-block;
-  margin-top: 50px;
   margin-bottom: 30px;
 }
 
@@ -250,7 +249,7 @@
   padding: 10px 20px;
   width: 160px;
   height: 45px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   margin-top: 30px;
   text-align: center;
 }
@@ -262,7 +261,7 @@
 /* Innovative Drug development */
 
 .develop {
-  margin: 50px 0;
+  padding: 50px 0;
 }
 .develop .container {
   width: 280px;
@@ -351,8 +350,6 @@
   padding: 10px 20px;
   width: 160px;
   height: 45px;
-  margin-bottom: 50px;
-  margin-top: 30px;
   text-align: center;
 }
 
@@ -370,8 +367,9 @@
   margin: 0 auto;
   width: 280px;
 }
-.recruit-img::after {
-  content: "";
+.recruit .recruit-box {
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .recruit-img {
@@ -381,20 +379,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  margin-bottom: 30px;
 }
 .recruit-img img {
   width: 100%;
 }
-/* .recruit .text-box > h1::before {
-  content: "";
-  width: 100%;
-  height: 240px;
-  border: 1px solid red;
-  background-image: url(/main/images/with.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-} */
 
 .recruit .text-box > h1 {
   font-size: 26px;
