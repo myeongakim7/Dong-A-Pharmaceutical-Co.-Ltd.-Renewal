@@ -1,6 +1,6 @@
 // main.js
 
-// 메인 배너 애니메이션 입니다.
+// 메인 배너 애니메이션
 
 $(function () {
   let bgArr = [
@@ -9,16 +9,16 @@ $(function () {
     "main/images/main-visual3.jpg",
   ];
 
-  let bnTitle_1 = ["건강한 생활 속에", "Since 1963", "비타그란 비타민C"];
+  let bnTitle_1 = ["언제나 함께", "Since 1963", "비타그란 비타민C"];
   let bnTitle_2 = [
-    "동아제약이 함께합니다<br><br>",
-    "당신의 피로회복제 박카스<br> 다양한 박카스 제품을 비교해보세요!",
-    "#비타민C #필수영양소 #취향맞춤비타민C<br> 언제 어디서나 비타민C의 생기를 가득 만나보세요",
+    "건강한 생활 속에서<br>동아제약이 함께합니다",
+    "당신의 피로회복제 박카스 <br> 다양한 박카스 제품을 비교해보세요!",
+    "#비타민C #필수영양소 #취향맞춤비타민C <br> 언제 어디서나 비타민C의 생기를 가득 만나보세요",
   ];
   let bnTitle_3 = [
-    "<a href='https://dmall.co.kr/product/index.html' style='color:var(--sub)'>공식몰 바로가기</a>",
-    "<a href='http://www.bacchusd.com/' style='color:#1616B3'>박카스 자세히 보기</a>",
-    "<a href='https://dmall.co.kr/product/list.html?cate_no=359' style='color:#CE2424'>비타그란 자세히 보기</a>",
+    "<a href='https://dmall.co.kr/product/index.html' style='color:var(--sub);'>공식몰 바로가기</a>",
+    "<a href='http://www.bacchusd.com/' style='color:#1616B3'>박카스 바로가기</a>",
+    "<a href='https://dmall.co.kr/product/list.html?cate_no=359' style='color:#CE2424'>비타그란 바로가기</a>",
   ];
 
   let bg_img_num = 0;

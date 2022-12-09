@@ -154,7 +154,7 @@ nav > ul {
 }
 
 .site_map_logo {
-  width: 25%;
+  width: 20%;
 }
 
 .site_map_header_ui {
@@ -165,7 +165,7 @@ nav > ul {
   width: 80%;
 }
 .site_map_close_btn a img {
-  width: 10%;
+  width: 5%;
 }
 
 /* site_map 하단 */
@@ -188,7 +188,7 @@ nav > ul {
 }
 
 .site_map_dep1_li > a {
-  font-size: 30px;
+  font-size: 28px;
   color: #000;
 }
 
@@ -203,7 +203,7 @@ nav > ul {
 
 .site_map_dep2_li > a {
   font-size: 22px;
-  color: #444;
+  color: var(--sub);
 }
 .site_map_dep2_li > a:hover {
   background-color: #029cc32b;
@@ -231,7 +231,7 @@ nav > ul {
 .main_bn_title > h3 {
   position: absolute;
   left: 116px;
-  bottom: 370px;
+  bottom: 400px;
 }
 .main_bn_title h3 {
   font-size: 45px;
@@ -251,7 +251,7 @@ nav > ul {
   width: 350px;
   height: 75px;
   position: absolute;
-  bottom: 205px;
+  bottom: 250px;
   left: 118px;
 }
 
@@ -462,11 +462,14 @@ nav > ul {
   margin: 0 auto;
   width: 1520px;
   background-color: var(--bg);
-  /* background-color: tan; */
 }
-/* img에 높이값, 너비 100 / text-box에 너비값 주기 */
+
 .news-img {
-  height: 556px;
+  width: 900px;
+  height: 560px;
+  background-image: url(/main/images/news.jpg);
+  background-position: center center;
+  background-size: cover;
 }
 .news-img img {
   width: 100%;
@@ -518,11 +521,15 @@ nav > ul {
   display: flex;
   margin: 0 auto;
   width: 1520px;
-  /* background-color: tan; */
 }
-/* img에 높이값, 너비 100 / text-box에 너비값 주기 */
+
 .recruit-img {
+  width: 900px;
   height: 560px;
+  /* background-color: #000; */
+  background-image: url(/main/images/with.jpg);
+  background-position: center center;
+  background-size: cover;
 }
 .recruit-img img {
   width: 100%;
