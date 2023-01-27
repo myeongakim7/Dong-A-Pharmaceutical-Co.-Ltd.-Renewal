@@ -37,3 +37,8 @@
       <li>main pc버전 사이트맵 수정</li>
       <li>open gragh 추가</li>
     </ul>
+        <h2>23/01/27</h2>
+    <ul>
+      <li>서브페이지) 서브배너 크기조정</li>
+      <li>main 제품정보 - 제품마다 링크 추가</li>
+      </ul>
