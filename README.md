@@ -1,9 +1,11 @@
 <h1>동아제약 리뉴얼 홈페이지</h1>
   <br />
+  <p>기존 동아제약 홈페이지 주소: http://www.dapharm.com/Main.da</p>
   <p>피그마 시안
-    주소: https://www.figma.com/file/fbgRvPUbv7aLLrgMi9ujpi/%EB%8F%99%EC%95%84%EC%A0%9C%EC%95%BD-%EC%8B%9C%EC%95%88?node-id=0%3A1&t=Lw8WlG13yCJTkXBx-1
+    주소: https://www.figma.com/file/fbgRvPUbv7aLLrgMi9ujpi/%EB%8F%99%EC%95%84%EC%A0%9C%EC%95%BD-%EC%8B%9C%EC%95%88?node-id=0%3A1&t=206EUDhQFUICHHaa-1
   </p>
-  <p>깃허브 주소: https://myeongakim7.github.io/Dong-A-Pharmaceutical-Co.-Ltd.-Renewal/</p>
+  <p>깃허브 주소: /</p>
+  <p>개발 언어: </p>
   <hr />
   <h2>22/12/06</h2>
   <ul>
@@ -37,8 +39,12 @@
       <li>main pc버전 사이트맵 수정</li>
       <li>open gragh 추가</li>
     </ul>
-        <h2>23/01/27</h2>
+    <h2>23/01/27</h2>
     <ul>
       <li>서브페이지) 서브배너 크기조정</li>
       <li>main 제품정보 - 제품마다 링크 추가</li>
       </ul>
+    <h2>2023/02/14</h2>
+    <ul>
+      <li>메인 배너 오류 해결 및 pc/mobile css 수정</li>
+    </ul>
