@@ -17,7 +17,7 @@ $(function () {
   ];
   let bnTitle_3 = [
     "<a href='https://dmall.co.kr/product/index.html' style='color:var(--sub);'>공식몰 바로가기</a>",
-    "<a href='http://www.bacchusd.com/' style='color:#1616B3'>박카스 바로가기</a>",
+    "<a href='http://www.bacchusd.com/' style='color:#101A39'>박카스 바로가기</a>",
     "<a href='https://dmall.co.kr/product/list.html?cate_no=359' style='color:#CE2424'>비타그란 바로가기</a>",
   ];
 
