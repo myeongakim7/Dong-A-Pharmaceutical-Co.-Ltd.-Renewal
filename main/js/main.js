@@ -40,7 +40,7 @@ $(function () {
 
     $(".main_bn_title h2").html(bnTitle_1[bg_img_num]);
     $(".main_bn_title h3").html(bnTitle_2[bg_img_num]);
-    $(".main_bn_title p").html(bnTitle_3[bg_img_num]);
+    $(".main_bn p").html(bnTitle_3[bg_img_num]);
   }, 6000);
 });
 
