@@ -13,11 +13,11 @@ $(function () {
   let bnTitle_2 = [
     "건강한 생활 속에서<br>동아제약이 함께합니다",
     "당신의 피로회복제 박카스 <br> 다양한 박카스 제품을 비교해보세요!",
-    "#비타민C #필수영양소 #취향맞춤비타민C <br> 언제 어디서나 비타민C의 생기를 가득 만나보세요",
+    "#비타민C #취향맞춤비타민C <br> 언제 어디서나 비타민C의 생기를 가득 만나보세요",
   ];
   let bnTitle_3 = [
-    "<a href='https://dmall.co.kr/product/index.html' style='color:var(--sub);'>공식몰 바로가기</a>",
-    "<a href='http://www.bacchusd.com/' style='color:#1616B3'>박카스 바로가기</a>",
+    "<a href='https://dmall.co.kr/product/index.html' style='color:var(--sub)'>공식몰 바로가기</a>",
+    "<a href='http://www.bacchusd.com/' style='color:#101A39'>박카스 바로가기</a>",
     "<a href='https://dmall.co.kr/product/list.html?cate_no=359' style='color:#CE2424'>비타그란 바로가기</a>",
   ];
 
@@ -53,5 +53,27 @@ $(function () {
 
   $(".site_map_close_btn a").on("click", function () {
     $(".site_map").removeClass("site_map_open");
+  });
+});
+
+// product 이전 / 다음 버튼으로 이미지 넘기기
+
+// 이미지 표시,비표시
+
+$(function () {
+  $("#next-btn").on("click", function () {
+    $(".product-box .product1").removeClass("show"),
+      $(".product-box .product1").addClass("none");
+    $(".product-box .product2").removeClass("none"),
+      $(".product-box .product2").addClass("show");
+  });
+});
+
+$(function () {
+  $("#pre-btn").on("click", function () {
+    $(".product-box .product2").removeClass("show"),
+      $(".product-box .product2").addClass("none");
+    $(".product-box .product1").removeClass("none"),
+      $(".product-box .product1").addClass("show");
   });
 });

@@ -243,7 +243,7 @@ nav > ul {
   font-weight: 700;
   color: var(--sub);
   text-align: center;
-  border: 2px solid #fff;
+  /* border: 2px solid #fff; */
   background-color: #fff;
   border-radius: 50px;
   padding: 10px 10px;
@@ -253,6 +253,10 @@ nav > ul {
   position: absolute;
   bottom: 250px;
   left: 118px;
+}
+
+.main_bn_title p > a {
+  color: var(--sub);
 }
 
 /* about */
@@ -327,36 +331,78 @@ nav > ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
 }
+
 .product a {
   color: #000;
 }
-.product1 {
+
+.product-parents {
+  width: 1440px;
+  height: 750px;
+  overflow: hidden;
+} /*부모 */
+.product-box {
+  width: 2880px;
+  height: 750px;
+  display: flex;
+  gap: 35px;
+  /* border: 1px solid red; */
+} /* 자식 */
+
+.product1,
+.product2 {
+  width: 450px;
+  height: 750px;
   text-align: center;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.product1 img {
+.product1 .product-img,
+.product2 .product-img {
+  width: 414px;
+  height: 546px;
+}
+.product1 .product-img img,
+.product2 .product-img img {
   width: 100%;
 }
 
-.product1 h3 {
+.product1 h3,
+.product2 h3 {
   font-size: 30px;
   font-weight: 500;
   margin: 10px;
 }
-.product1 p {
+.product1 p,
+.product2 p {
   font-size: 20px;
   font-weight: 400;
 }
-
-.product i {
-  color: var(--sub);
+/* 이미지 표시 */
+.product-box .show {
+  z-index: 10;
+  opacity: 1;
+}
+/* 이미지 비표시 */
+.product-box .none {
+  display: none;
 }
 
+#pre-btn,
+#next-btn {
+  background-color: transparent;
+  color: var(--sub);
+  border: none;
+}
 .product .main_btn {
   outline: 1px solid var(--sub);
   font-size: 20px;
-  padding: 10px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 200px;
   height: 60px;
   margin: 55px auto 100px auto;
@@ -402,7 +448,9 @@ nav > ul {
 .ethic .main-btn {
   border: 1px solid var(--sub);
   font-size: 20px;
-  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 160px;
   height: 60px;
   margin-bottom: 100px;
@@ -446,7 +494,9 @@ nav > ul {
 .develop-box .main-btn {
   border: 1px solid #fff;
   font-size: 20px;
-  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 160px;
   height: 60px;
   position: absolute;
@@ -507,7 +557,9 @@ nav > ul {
 .text-box .main-btn {
   border: 1px solid var(--sub);
   font-size: 20px;
-  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 160px;
   height: 60px;
   position: absolute;
