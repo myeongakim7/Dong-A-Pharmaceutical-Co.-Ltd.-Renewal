@@ -213,7 +213,7 @@ nav > ul {
 /* sub-banner */
 
 .sub-bn .sub-bn-bg {
-  height: 800px;
+  height: 500px;
   background-image: url(../images/sub-banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;

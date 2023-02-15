@@ -1,486 +1,427 @@
 <!DOCTYPE html>
 <html lang="kr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- og : open graph  -->
-    <!-- 웹사이트 이름 -->
-    <meta name="og:site_name" content="동아제약" />
-    <!-- 웹페이지 제목 -->
-    <meta name="og:title" content="동아제약 공식 홈페이지" />
-    <!-- 웹페이지 상세설명 -->
-    <meta name="og:description" content="동아제약 공식 홈페이지입니다." />
-    <meta name="og:type" content="website" />
-    <!-- 웹페이지 주소 -->
-    <meta
-      name="og:url"
-      content="https://myeongakim7.github.io/Dong-A-Pharmaceutical-Co.-Ltd.-Renewal/"
-    />
-    <!-- 썸네일 주소 찾기 -->
-    <!-- 웹페이지 썸네일 (권장크기:1200 X 630)-->
-    <meta name="og:image" content="./thumbnail.jpg" />
-    <!-- 파비콘 -->
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="favicon/favicon.ico"
-    />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <!--폰트-->
-    <link rel="stylesheet" href="./main/css/index-style.css" />
-    <link
-      rel="stylesheet"
-      href="./main/css/index-pc.css"
-      media="screen and (min-width:767px)"
-    />
-    <link
-      rel="stylesheet"
-      href="./main/css/index-mobile.css"
-      media="screen and (max-width:767px)"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="./main/js/main.js"></script>
-    <title>동아제약 메인페이지</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- og : open graph  -->
+  <!-- 웹사이트 이름 -->
+  <meta name="og:site_name" content="동아제약" />
+  <!-- 웹페이지 제목 -->
+  <meta name="og:title" content="동아제약 공식 홈페이지" />
+  <!-- 웹페이지 상세설명 -->
+  <meta name="og:description" content="동아제약 공식 홈페이지입니다." />
+  <meta name="og:type" content="website" />
+  <!-- 웹페이지 주소 -->
+  <meta name="og:url" content="https://myeongakim7.github.io/Dong-A-Pharmaceutical-Co.-Ltd.-Renewal/" />
+  <!-- 썸네일 주소 찾기 -->
+  <!-- 웹페이지 썸네일 (권장크기:1200 X 630)-->
+  <meta name="og:image" content="./thumbnail.jpg" />
+  <!-- 파비콘 -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon.ico" />
+  <!-- 폰트 어썸 -->
+  <script src="https://kit.fontawesome.com/555fc2c49c.js" crossorigin="anonymous"></script>
 
-  <body>
-    <header class="header">
-      <h1 class="logo">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet" />
+  <!--폰트-->
+  <link rel="stylesheet" href="./main/css/index-style.css" />
+  <link rel="stylesheet" href="./main/css/index-pc.css" media="screen and (min-width:767px)" />
+  <link rel="stylesheet" href="./main/css/index-mobile.css" media="screen and (max-width:767px)" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./main/js/main.js"></script>
+  <title>동아제약 메인페이지</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="logo">
+      <a href="./index.html">
+        <img src="./main/images/main-logo.jpg" alt="logo" />
+      </a>
+    </h1>
+    <nav class="header_nav">
+      <ul class="dep1_ul">
+        <li class="dep1_li">
+          <a href="./about/about.html">기업정보
+            <ul class="dep2_ul">
+              <li class="dep2_li">
+                <a href="./about/about.html">기업소개 </a>
+              </li>
+              <li class="dep2_li">
+                <a href="./about/about.html">회사연혁</a>
+              </li>
+              <li class="dep2_li">
+                <a href="./about/about.html">위치안내</a>
+              </li>
+            </ul>
+          </a>
+        </li>
+        <li class="dep1_li">
+          <a href="./product/product.html">제품정보
+            <ul class="dep2_ul">
+              <li class="dep2_li">
+                <a href="./product/product.html">제품검색</a>
+              </li>
+              <li class="dep2_li"><a href="./product/product.html">제품소식 </a></li>
+              <li class="dep2_li"><a href="./product/product.html">약국찾기 </a></li>
+            </ul>
+          </a>
+        </li>
+        <li class="dep1_li">
+          <a href="./product/product.html">연구개발
+            <ul class="dep2_ul">
+              <li class="dep2_li">
+                <a href="#">연구센터소개 </a>
+              </li>
+              <li class="dep2_li">
+                <a href="#">R&D 비전</a>
+              </li>
+              <li class="dep2_li">
+                <a href="#">주요연구성과</a>
+              </li>
+            </ul>
+          </a>
+        </li>
+        <li class="dep1_li">
+          <a href="#">윤리경영
+            <ul class="dep2_ul">
+              <li class="dep2_li">
+                <a href="#">윤리경영 </a>
+              </li>
+              <li class="dep2_li"><a href="#">윤리강령 </a></li>
+            </ul>
+          </a>
+        </li>
+        <li class="dep1_li">
+          <a href="#">홍보센터
+            <ul class="dep2_ul">
+              <li class="dep2_li">
+                <a href="#">공지&뉴스</a>
+              </li>
+              <li class="dep2_li"><a href="#">홍보영상 </a></li>
+              <li class="dep2_li"><a href="#">인재채용</a></li>
+            </ul>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header_ui">
+      <div class="mall">
+        <img src="./main/images/icon-cart.svg" alt="mall" />
+        <a href="https://dmall.co.kr/product/index.html">&nbsp;동아제약 공식몰&nbsp;</a>
+      </div>
+      <!--mall-->
+      <p class="between">&nbsp;| &nbsp;</p>
+      <div class="lang">
+        <a href="#"><img src="./main/images/icon-lang.svg" alt="lang" />&nbsp;&nbsp;EN</a>
+      </div>
+      <div class="m_btn">
+        <a href="#">
+          <img src="./main/images/icon-menu.svg" alt="site-map-menu" />
+        </a>
+      </div>
+    </div>
+  </header>
+  <!-- site map -->
+  <div class="site_map">
+    <div class="site_map_upper">
+      <h1 class="site_map_logo">
         <a href="./index.html">
           <img src="./main/images/main-logo.jpg" alt="logo" />
         </a>
       </h1>
-      <nav class="header_nav">
-        <ul class="dep1_ul">
-          <li class="dep1_li">
-            <a href="./about/about.html"
-              >기업정보
-              <ul class="dep2_ul">
-                <li class="dep2_li">
-                  <a href="./about/about.html">기업소개 </a>
-                </li>
-                <li class="dep2_li">
-                  <a href="./about/about.html">회사연혁</a>
-                </li>
-                <li class="dep2_li">
-                  <a href="./about/about.html">위치안내</a>
-                </li>
-              </ul>
-            </a>
-          </li>
-          <li class="dep1_li">
-            <a href="./product/product.html"
-              >제품정보
-              <ul class="dep2_ul">
-                <li class="dep2_li">
-                  <a href="./product/product.html">제품검색</a>
-                </li>
-                <li class="dep2_li">
-                  <a href="./product/product.html">제품소식 </a>
-                </li>
-                <li class="dep2_li">
-                  <a href="./product/product.html">약국찾기 </a>
-                </li>
-              </ul>
-            </a>
-          </li>
-          <li class="dep1_li">
-            <a href="./product/product.html"
-              >연구개발
-              <ul class="dep2_ul">
-                <li class="dep2_li">
-                  <a href="#">연구센터소개 </a>
-                </li>
-                <li class="dep2_li">
-                  <a href="#">R&D 비전</a>
-                </li>
-                <li class="dep2_li">
-                  <a href="#">주요연구성과</a>
-                </li>
-              </ul>
-            </a>
-          </li>
-          <li class="dep1_li">
-            <a href="#"
-              >윤리경영
-              <ul class="dep2_ul">
-                <li class="dep2_li">
-                  <a href="#">윤리경영 </a>
-                </li>
-                <li class="dep2_li"><a href="#">윤리강령 </a></li>
-              </ul>
-            </a>
-          </li>
-          <li class="dep1_li">
-            <a href="#"
-              >홍보센터
-              <ul class="dep2_ul">
-                <li class="dep2_li">
-                  <a href="#">공지&뉴스</a>
-                </li>
-                <li class="dep2_li"><a href="#">홍보영상 </a></li>
-                <li class="dep2_li"><a href="#">인재채용</a></li>
-              </ul>
-            </a>
-          </li>
-        </ul>
-      </nav>
-
-      <div class="header_ui">
-        <div class="mall">
-          <img src="./main/images/icon-cart.svg" alt="mall" />
-          <a href="https://dmall.co.kr/product/index.html"
-            >&nbsp;동아제약 공식몰&nbsp;</a
-          >
-        </div>
-        <!--mall-->
-        <p class="between">&nbsp;| &nbsp;</p>
-        <div class="lang">
-          <a href="#"
-            ><img
-              src="./main/images/icon-lang.svg"
-              alt="lang"
-            />&nbsp;&nbsp;EN</a
-          >
-        </div>
-        <div class="m_btn">
+      <div class="site_map_header_ui">
+        <div class="site_map_close_btn">
           <a href="#">
-            <img src="./main/images/icon-menu.svg" alt="site-map-menu" />
+            <img src="./main/images/icon-close.svg" alt="site_close_btn" />
           </a>
         </div>
       </div>
-    </header>
-    <!-- site map -->
-    <div class="site_map">
-      <div class="site_map_upper">
-        <h1 class="site_map_logo">
-          <a href="./index.html">
-            <img src="./main/images/main-logo.jpg" alt="logo" />
-          </a>
-        </h1>
-        <div class="site_map_header_ui">
-          <div class="site_map_close_btn">
-            <a href="#">
-              <img src="./main/images/icon-close.svg" alt="site_close_btn" />
-            </a>
-          </div>
-        </div>
-        <!--site-map-upper-->
-      </div>
-      <!--site-map-->
-      <nav class="site_map_nav">
-        <ul class="site_map_dep1_ul">
-          <li class="site_map_dep1_li">
-            <a href="./about/about.html"
-              >기업정보
-              <ul class="site_map_dep2_ul">
-                <li class="site_map_dep2_li">
-                  <a href="./about/about.html">기업소개</a>
-                </li>
-                <li class="site_map_dep2_li">
-                  <a href="./about/about.html">회사연혁</a>
-                </li>
-                <li class="site_map_dep2_li">
-                  <a href="./about/about.html">위치안내</a>
-                </li>
-              </ul>
-            </a>
-          </li>
-          <li class="site_map_dep1_li">
-            <a href="#"
-              >제품정보
-              <ul class="site_map_dep2_ul">
-                <li class="site_map_dep2_li">
-                  <a href="./product/product.html">제품검색</a>
-                </li>
-                <li class="site_map_dep2_li">
-                  <a href="./product/product.html">제품소식 </a>
-                </li>
-                <li class="site_map_dep2_li">
-                  <a href="./product/product.html">약국찾기 </a>
-                </li>
-              </ul>
-            </a>
-          </li>
-          <li class="site_map_dep1_li">
-            <a href="#"
-              >연구개발
-              <ul class="site_map_dep2_ul">
-                <li class="site_map_dep2_li">
-                  <a href="#">연구센터소개</a>
-                </li>
-                <li class="site_map_dep2_li">
-                  <a href="#">R&D 비전</a>
-                </li>
-                <li class="site_map_dep2_li">
-                  <a href="#">주요연구성과</a>
-                </li>
-              </ul>
-            </a>
-          </li>
-          <li class="site_map_dep1_li">
-            <a href="#"
-              >윤리경영
-              <ul class="site_map_dep2_ul">
-                <li class="site_map_dep2_li">
-                  <a href="#">윤리강령</a>
-                </li>
-                <li class="site_map_dep2_li"><a href="#">상담/FAQ</a></li>
-                <li class="site_map_dep2_li"><a href="#">인재채용</a></li>
-              </ul>
-            </a>
-          </li>
-          <li class="site_map_dep1_li">
-            <a href="#"
-              >홍보센터
-              <ul class="site_map_dep2_ul">
-                <li class="site_map_dep2_li">
-                  <a href="#">공지 & 뉴스</a>
-                </li>
-                <li class="site_map_dep2_li">
-                  <a href="#">홍보영상</a>
-                </li>
-                <li class="site_map_dep2_li">
-                  <a href="#">인재채용</a>
-                </li>
-              </ul>
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <!--site-map-upper-->
     </div>
-    <!-- 사이트맵 -->
-    <div class="contents">
-      <div class="main_bn">
-        <div class="main_bn_title">
-          <h2>언제나 함께</h2>
-          <h3>건강한 생활 속에서<br />동아제약이 함께합니다</h3>
-        </div>
-        <p>공식몰 바로가기</p>
-        <!-- main_bn_title -->
-      </div>
-      <!-- main_bn -->
-
-      <div class="about">
-        <div class="container">
-          <h1 class="about_title">About</h1>
-          <div class="about_bn"></div>
-          <div class="about_contents">
-            <p>
-              동아제약은 지속 가능한 미래를 위해 사회와 더불어 일하는 글로벌
-              헬스케어 전문기업입니다.<br />
-              인류의 건강한 삶을 개척하고 풍요로운 미래에 도전하는 기업이
-              되겠습니다.
-            </p>
-            <div class="main_btn">
-              <a href="./about/about.html"
-                >기업정보&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a
-              >
-            </div>
-            <!--contents-->
-          </div>
-          <!--about_contents-->
-        </div>
-        <!--container-->
-      </div>
-      <!-- about -->
-
-      <div class="product">
-        <div class="container">
-          <div class="product-title">
-            <h1>Product</h1>
-          </div>
-          <div class="product-contents">
-            <div class="product1">
-              <img src="./main/images/product1.svg" alt="product1" />
-              <h3>Beverage</h3>
-              <p>
-                매일을 새롭게 에너지 UP 해 줄<br />
-                대한민국 피로회복제
-              </p>
-            </div>
-            <!--product1-->
-            <div class="product1">
-              <img src="./main/images/product2.svg" alt="product2" />
-              <h3>Health functional food</h3>
-              <p>
-                꼭 필요한 영양분만 담은<br />
-                맞춤형 헬스 케어
-              </p>
-            </div>
-            <!--product1-->
-            <div class="product1">
-              <img src="./main/images/product3.svg" alt="product3" />
-              <h3>Feminine hygiene products</h3>
-              <p>
-                여성의 삶을 건강하고 아름답게 <br />
-                라이프 스테이지별 맞춤
-              </p>
-            </div>
-            <!--product1-->
-          </div>
-          <!--product-contents-->
-          <div class="btn-box">
-            <div class="main_btn">
-              <a href="./product/product.html"
-                >제품정보&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a
-              >
-            </div>
-          </div>
-          <!--btn-box-->
-        </div>
-        <!--container-->
-      </div>
-      <!--product-->
-      <div class="ethic">
-        <div class="container">
-          <div class="ethic-title">
-            <h1>Ethical management</h1>
-          </div>
-          <div class="ethic-bn"></div>
-          <div class="ethic-contents">
-            <p>
-              동아제약은 윤리준법경영을 통해 <br />
-              고객과 사회로부터 신뢰받는 기업으로 나아가고자 합니다.
-            </p>
-            <div class="main-btn">
-              <a href="#">윤리경영&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a>
-            </div>
-          </div>
-        </div>
-        <!--container-->
-      </div>
-      <!--ethic-->
-
-      <div class="develop">
-        <div class="container">
-          <div class="develop-box">
-            <h1>
-              Innovative Drug<br />
-              Development
-            </h1>
-            <p>
-              지속적인 R&D를 통해<br />
-              헬스케어 전문기업으로 성장하겠습니다.
-            </p>
-            <div class="main-btn">
-              <a href="#">연구개발&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a>
-            </div>
-          </div>
-        </div>
-        <!--container-->
-      </div>
-      <!--development-->
-
-      <div class="news">
-        <div class="container">
-          <div class="news-box">
-            <div class="news-img"></div>
-            <div class="text-box">
-              <h1>News & Notice</h1>
-              <p>
-                동아제약의 최신 뉴스와 소식을 <br />
-                지금 만나보세요.
-              </p>
-              <div class="main-btn">
-                <a href="#">홍보센터&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a>
-              </div>
-            </div>
-            <!--text-box-->
-          </div>
-          <!--news-box-->
-        </div>
-        <!--container-->
-      </div>
-
-      <div class="recruit">
-        <div class="container">
-          <div class="recruit-box">
-            <div class="text-box">
-              <h1>
-                With <br />
-                Dong-A PHARM
-              </h1>
-              <p>
-                동아제약과 성장을 함께 이끌어갈 <br />
-                여러분의 도전을 기다립니다.
-              </p>
-              <div class="main-btn">
-                <a href="#">인재채용&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a>
-              </div>
-            </div>
-            <!--text-box-->
-            <div class="recruit-img"></div>
-          </div>
-          <!--recruit-box-->
-        </div>
-        <!--container-->
-      </div>
-      <!--recruit-->
-    </div>
-    <!--contents-->
-
-    <footer class="footer">
-      <div class="footer_left">
-        <div class="footer_left_upper">
-          <a href="./index.html">
-            <img src="./main/images/f-logo.jpg" alt="f-logo" />
+    <!--site-map-->
+    <nav class="site_map_nav">
+      <ul class="site_map_dep1_ul">
+        <li class="site_map_dep1_li">
+          <a href="./about/about.html">기업정보
+            <ul class="site_map_dep2_ul">
+              <li class="site_map_dep2_li">
+                <a href="./about/about.html">기업소개</a>
+              </li>
+              <li class="site_map_dep2_li">
+                <a href="./about/about.html">회사연혁</a>
+              </li>
+              <li class="site_map_dep2_li">
+                <a href="./about/about.html">위치안내</a>
+              </li>
+            </ul>
           </a>
-          <div class="footer_left_info_1">
-            <p><a href="#">개인정보방침</a></p>
-            <p><a href="#">이용약관</a></p>
-          </div>
-        </div>
+        </li>
+        <li class="site_map_dep1_li">
+          <a href="#">제품정보
+            <ul class="site_map_dep2_ul">
+              <li class="site_map_dep2_li">
+                <a href="./product/product.html">제품검색</a>
+              </li>
+              <li class="site_map_dep2_li"><a href="./product/product.html">제품소식 </a></li>
+              <li class="site_map_dep2_li"><a href="./product/product.html">약국찾기 </a></li>
+            </ul>
+          </a>
+        </li>
+        <li class="site_map_dep1_li">
+          <a href="#">연구개발
+            <ul class="site_map_dep2_ul">
+              <li class="site_map_dep2_li">
+                <a href="#">연구센터소개</a>
+              </li>
+              <li class="site_map_dep2_li">
+                <a href="#">R&D 비전</a>
+              </li>
+              <li class="site_map_dep2_li">
+                <a href="#">주요연구성과</a>
+              </li>
+            </ul>
+          </a>
+        </li>
+        <li class="site_map_dep1_li">
+          <a href="#">윤리경영
+            <ul class="site_map_dep2_ul">
+              <li class="site_map_dep2_li">
+                <a href="#">윤리강령</a>
+              </li>
+              <li class="site_map_dep2_li"><a href="#">상담/FAQ</a></li>
+              <li class="site_map_dep2_li"><a href="#">인재채용</a></li>
+            </ul>
+          </a>
+        </li>
+        <li class="site_map_dep1_li">
+          <a href="#">홍보센터
+            <ul class="site_map_dep2_ul">
+              <li class="site_map_dep2_li">
+                <a href="#">공지 & 뉴스</a>
+              </li>
+              <li class="site_map_dep2_li">
+                <a href="#">홍보영상</a>
+              </li>
+              <li class="site_map_dep2_li">
+                <a href="#">인재채용</a>
+              </li>
+            </ul>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!-- 사이트맵 -->
+  <div class="contents">
+    <div class="main_bn">
+      <div class="main_bn_title">
+        <h2>언제나 함께 </h2>
+        <h3>건강한 생활 속에서<br>동아제약이 함께합니다</h3>
+        <p><a href="#">공식몰 바로가기</a></p>
+      </div>
+    </div>
 
-        <div class="footer_left_info_2">
+    <div class="about">
+      <div class="container">
+        <h1 class="about_title">About</h1>
+        <div class="about_bn"></div>
+        <div class="about_contents">
           <p>
-            서울시 동대문구 천호대로64 | 대표번호 82-02-920-8112 | 팩스
-            82-02-920-8708 | E-mail : donga@naver.com <br />
-            사업자 등록 번호 : 204-86-40118 | ⓒ2013.Dong-A All rights reserved.
+            동아제약은 지속 가능한 미래를 위해 사회와 더불어 일하는 글로벌 헬스케어 전문기업입니다.<br>
+            인류의 건강한 삶을 개척하고 풍요로운 미래에 도전하는 기업이 되겠습니다.
           </p>
+          <div class="main_btn">
+            <a href="./about/about.html">기업정보&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a>
+          </div>
+          <!--contents-->
+        </div>
+        <!--about_contents-->
+      </div>
+      <!--container-->
+    </div>
+    <!-- about -->
+
+    <div class="product">
+      <div class="container">
+        <div class="product-title">
+          <h1>Product</h1>
+        </div>
+        <div class="product-contents">
+          <div class="pre-btn" id="pro-btn">
+            <a href="#"><i class="fa-solid fa-chevron-left fa-2x"></i></a>
+          </div>
+          <div class="product1">
+            <a href="./product/product.html">
+              <img src="./main/images/product1.svg" alt="product1">
+              <h3>Beverage</h3>
+              <p>매일을 새롭게 에너지 UP 해 줄<br>
+                대한민국 피로회복제 </p>
+            </a>
+          </div>
+          <!--product1-->
+          <div class="product1">
+            <a href="./product/product.html">
+              <img src="./main/images/product2.svg" alt="product2">
+              <h3>Health functional food </h3>
+              <p>꼭 필요한 영양분만 담은<br>
+                맞춤형 헬스 케어 </p>
+            </a>
+          </div>
+          <!--product1-->
+          <div class="product1">
+            <a href="./product/product.html">
+              <img src="./main/images/product3.svg" alt="product3">
+              <h3>Feminine hygiene products</h3>
+              <p>여성의 삶을 건강하고 아름답게 <br>
+                라이프 스테이지별 맞춤</p>
+            </a>
+          </div>
+          <!--product1-->
+          <!-- 제품 3개 더 추가하기  <> 이전,다음 버튼 !!-->
+          <!-- 1.사진모으기 2.제목, 설명추가 / hidden  -->
+          <div class="next-btn" id="pro-btn">
+            <a href="#"><i class="fa-solid fa-chevron-right fa-2x"></i></a>
+          </div>
+        </div>
+        <!--product-contents-->
+        <div class="btn-box">
+          <div class="main_btn">
+            <a href="./product/product.html">제품정보&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a>
+          </div>
+        </div>
+        <!--btn-box-->
+      </div>
+      <!--container-->
+    </div>
+    <!--product-->
+    <div class="ethic">
+      <div class="container">
+        <div class="ethic-title">
+          <h1>Ethical management</h1>
+        </div>
+        <div class="ethic-bn"></div>
+        <div class="ethic-contents">
+          <p>
+            동아제약은 윤리준법경영을 통해 <br>
+            고객과 사회로부터 신뢰받는 기업으로 나아가고자 합니다.
+          </p>
+          <div class="main-btn">
+            <a href="#">윤리경영&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a>
+          </div>
         </div>
       </div>
-      <div class="footer_right">
-        <div class="family_site">
-          <p>Family Site</p>
-          <svg
-            width="15"
-            height="9"
-            viewBox="0 0 15 9"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1 1.25L7.5 7.75L14 1.25"
-              stroke="black"
-              stroke-width="1.3px"
-            />
-          </svg>
-        </div>
-        <div class="sns_btn">
-          <a href="https://www.naver.com/">
-            <img src="./main/images/icon-naver.svg" alt="naver_btn" />
-          </a>
-          <a href="https://www.facebook.com/">
-            <img src="./main/images/icon-facebook.svg" alt="facebook_btn" />
-          </a>
-          <a href="https://www.instagram.com/">
-            <img src="./main/images/icon-instagram.svg" alt="instagram_btn" />
-          </a>
-          <a href="https://www.youtube.com/">
-            <img src="./main/images/icon-youtube.svg" alt="youtube_btn" />
-          </a>
+      <!--container-->
+    </div>
+    <!--ethic-->
+
+    <div class="develop">
+      <div class="container">
+        <div class="develop-box">
+          <h1>Innovative Drug<br>
+            Development</h1>
+          <p>지속적인 R&D를 통해<br>
+            헬스케어 전문기업으로 성장하겠습니다.</p>
+          <div class="main-btn">
+            <a href="#">연구개발&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a>
+          </div>
         </div>
       </div>
-    </footer>
-  </body>
+      <!--container-->
+    </div>
+    <!--development-->
+
+    <div class="news">
+      <div class="container">
+        <div class="news-box">
+          <div class="news-img">
+          </div>
+          <div class="text-box">
+            <h1>News & Notice</h1>
+            <p>동아제약의 최신 뉴스와 소식을 <br>
+              지금 만나보세요.</p>
+            <div class="main-btn">
+              <a href="#">홍보센터&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a>
+            </div>
+          </div>
+          <!--text-box-->
+        </div>
+        <!--news-box-->
+      </div>
+      <!--container-->
+    </div>
+
+    <div class="recruit">
+      <div class="container">
+        <div class="recruit-box">
+          <div class="text-box">
+            <h1>With <br> Dong-A PHARM</h1>
+            <p>동아제약과 성장을 함께 이끌어갈 <br>
+              여러분의 도전을 기다립니다.</p>
+            <div class="main-btn">
+              <a href="#">인재채용&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a>
+            </div>
+          </div>
+          <!--text-box-->
+          <div class="recruit-img">
+          </div>
+        </div>
+        <!--recruit-box-->
+      </div>
+      <!--container-->
+    </div>
+    <!--recruit-->
+  </div>
+  <!--contents-->
+
+  <footer class="footer">
+    <div class="footer_left">
+      <div class="footer_left_upper">
+        <a href="./index.html">
+          <img src="./main/images/f-logo.jpg" alt="f-logo" />
+        </a>
+        <div class="footer_left_info_1">
+          <p><a href="#">개인정보방침</a></p>
+          <p><a href="#">이용약관</a></p>
+        </div>
+      </div>
+
+      <div class="footer_left_info_2">
+        <p>
+          서울시 동대문구 천호대로64 | 대표번호 82-02-920-8112 | 팩스 82-02-920-8708 | E-mail : donga@naver.com <br>
+          사업자 등록 번호 : 204-86-40118 | ⓒ2013.Dong-A All rights reserved.
+        </p>
+      </div>
+    </div>
+    <div class="footer_right">
+      <div class="family_site">
+        <p>Family Site</p>
+        <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 1.25L7.5 7.75L14 1.25" stroke="black" stroke-width="1.3px" />
+        </svg>
+      </div>
+      <div class="sns_btn">
+        <a href="https://www.naver.com/">
+          <img src="./main/images/icon-naver.svg" alt="naver_btn" />
+        </a>
+        <a href="https://www.facebook.com/">
+          <img src="./main/images/icon-facebook.svg" alt="facebook_btn" />
+        </a>
+        <a href="https://www.instagram.com/">
+          <img src="./main/images/icon-instagram.svg" alt="instagram_btn" />
+        </a>
+        <a href="https://www.youtube.com/">
+          <img src="./main/images/icon-youtube.svg" alt="youtube_btn" />
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
