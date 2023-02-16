@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css/product-pc.css" media="screen and (min-width:767px)" />
   <link rel="stylesheet" href="./css/product-mobile.css" media="screen and (max-width:767px)" />
+  <!-- 여기 다시 고쳐야함 모바일 - 찍기 -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="./js/product.js"></script>
 </head>
@@ -41,13 +42,13 @@
           </a>
         </li>
         <li class="dep1_li">
-          <a href="./product.html">제품정보
+          <a href="../product/product.html">제품정보
             <ul class="dep2_ul">
               <li class="dep2_li">
-                <a href="./product.html">제품검색</a>
+                <a href="../product/product.html">제품검색</a>
               </li>
-              <li class="dep2_li"><a href="./product.html">제품소식 </a></li>
-              <li class="dep2_li"><a href="./product.html">약국찾기 </a></li>
+              <li class="dep2_li"><a href="../product/product.html">제품소식 </a></li>
+              <li class="dep2_li"><a href="../product/product.html">약국찾기 </a></li>
             </ul>
           </a>
         </li>
@@ -128,16 +129,16 @@
     <nav class="site_map_nav">
       <ul class="site_map_dep1_ul">
         <li class="site_map_dep1_li">
-          <a href="../about/about.html">기업정보
+          <a href="./about/about.html">기업정보
             <ul class="site_map_dep2_ul">
               <li class="site_map_dep2_li">
-                <a href="../about/about.html">기업소개</a>
+                <a href="./about/about.html">기업소개</a>
               </li>
               <li class="site_map_dep2_li">
-                <a href="../about/about.html">회사연혁</a>
+                <a href="./about/about.html">회사연혁</a>
               </li>
               <li class="site_map_dep2_li">
-                <a href="../about/about.html">위치안내</a>
+                <a href="./about/about.html">위치안내</a>
               </li>
             </ul>
           </a>
@@ -146,13 +147,13 @@
           <a href="#">제품정보
             <ul class="site_map_dep2_ul">
               <li class="site_map_dep2_li">
-                <a href="./product.html">제품검색</a>
+                <a href="./product/product.html">제품검색</a>
               </li>
               <li class="site_map_dep2_li">
-                <a href="./product.html">제품소식 </a>
+                <a href="./product/product.html">제품소식 </a>
               </li>
               <li class="site_map_dep2_li">
-                <a href="./product.html">약국찾기 </a>
+                <a href="./product/product.html">약국찾기 </a>
               </li>
             </ul>
           </a>
@@ -229,22 +230,22 @@
         <!--box2-->
         <div class="depth2">
           <ul class="depth2_ul">
-            <li class="depth2_li"><a href="#">
-                <img src="./images/icon-medicine.svg" alt="medicine">
-                <h3>일반의약품</h3>
-              </a></li>
-            <li class="depth2_li"><a href="#">
-                <img src="./images/icon-mask-light.svg" alt="etc">
-                <h3>의약외품</h3>
-              </a></li>
-            <li class="depth2_li"><a href="#">
-                <img src="./images/icon_muscle.svg" alt="healthy-food">
-                <h3>건강기능식품</h3>
-              </a></li>
-            <li class="depth2_li"><a href="#">
-                <img src="./images/icon_health.svg" alt="cosmetic">
-                <h3>생활건강/화장품</h3>
-              </a></li>
+            <li class="depth2_li">
+              <img src="./images/icon-medicine.svg" alt="medicine">
+              <h3>일반의약품</h3>
+            </li>
+            <li class="depth2_li">
+              <img src="./images/icon-mask-light.svg" alt="etc">
+              <h3>의약외품</h3>
+            </li>
+            <li class="depth2_li">
+              <img src="./images/icon_muscle.svg" alt="healthy-food">
+              <h3>건강기능식품</h3>
+            </li>
+            <li class="depth2_li">
+              <img src="./images/icon_health.svg" alt="cosmetic">
+              <h3>생활건강/화장품</h3>
+            </li>
           </ul>
         </div>
         <!--depth2-->
@@ -256,87 +257,126 @@
     <div class="product-list">
       <div class="container">
         <ul class="pro_ul">
-          <li class="pro_li-1"><a href="#">
+          <li class="pro_li-1 pro-li">
+            <div class="pro-img">
               <img src="./images/p1.jpg" alt="product1">
-              <h3>노스카나겔</h3>
-              <ul class="pro_li_ul">
-                <li class="pro_li_li">제품구분 : 일반의약품</li>
-                <li class="pro_li_li">효능분류 : 상처의약품</li>
-              </ul>
-              <!--pro_li_ul-->
-            </a></li>
-          <li class="pro_li-1"><a href="#">
+            </div>
+            <h3>노스카나겔</h3>
+            <ul class="pro_li_ul">
+              <li class="pro_li_li"><span>제품구분</span> : 일반의약품</li>
+              <li class="pro_li_li">효능분류 : 세포의약품</li>
+            </ul>
+            <!--pro_li_ul-->
+          </li>
+          <li class="pro_li-1 pro-li">
+            <div class="pro-img">
               <img src="./images/p2.jpg" alt="product2">
-              <h3>덴파사캡슐</h3>
-              <ul class="pro_li_ul">
-                <li class="pro_li_li">제품구분 : 일반의약품</li>
-                <li class="pro_li_li">효능분류 : 치과구강용약</li>
-              </ul>
-              <!--pro_li_ul-->
-            </a></li>
-          <li class="pro_li-1"><a href="#">
+            </div>
+            <h3>덴파사캡슐</h3>
+            <ul class="pro_li_ul">
+              <li class="pro_li_li">제품구분 : 일반의약품</li>
+              <li class="pro_li_li">효능분류 : 치과구강용약</li>
+            </ul>
+            <!--pro_li_ul-->
+          </li>
+          <li class="pro_li-1 pro-li">
+            <div class="pro-img">
               <img src="./images/p3.jpg" alt="product3">
-              <h3>드라이문트겔</h3>
-              <ul class="pro_li_ul">
-                <li class="pro_li_li">제품구분 : 일반의약품</li>
-                <li class="pro_li_li">효능분류 : 치과구강용약</li>
-              </ul>
-              <!--pro_li_ul-->
-            </a></li>
-          <li class="pro_li-1"><a href="#">
+            </div>
+            <h3>드라이문트겔</h3>
+            <ul class="pro_li_ul">
+              <li class="pro_li_li">제품구분 : 일반의약품</li>
+              <li class="pro_li_li">효능분류 : 치과구강용약</li>
+            </ul>
+            <!--pro_li_ul-->
+          </li>
+          <li class="pro_li-1 pro-li">
+            <div class="pro-img">
               <img src="./images/p4.jpg" alt="product4">
-              <h3>마그랑비 연질캡슐</h3>
-              <ul class="pro_li_ul">
-                <li class="pro_li_li">제품구분 : 일반의약품</li>
-                <li class="pro_li_li">효능분류 : 기타 비타민제</li>
-              </ul>
-              <!--pro_li_ul-->
-            </a></li>
-          <li class="pro_li-2"><a href="#">
+            </div>
+            <h3>마그랑비 연질캡슐</h3>
+            <ul class="pro_li_ul">
+              <li class="pro_li_li">제품구분 : 일반의약품</li>
+              <li class="pro_li_li">효능분류 : 비타민제</li>
+            </ul>
+            <!--pro_li_ul-->
+          </li>
+          <li class="pro_li-2 pro-li">
+            <div class="pro-img">
               <img src="./images/p5.jpg" alt="product5">
-              <h3>박카스 에프액</h3>
-              <ul class="pro_li_ul">
-                <li class="pro_li_li">제품구분 : 의약외품</li>
-                <li class="pro_li_li">효능분류 : 자양강장변질제</li>
-              </ul>
-              <!--pro_li_ul-->
-            </a></li>
-          <li class="pro_li-2"><a href="#">
+            </div>
+            <h3>박카스 에프액</h3>
+            <ul class="pro_li_ul">
+              <li class="pro_li_li">제품구분 : 의약외품</li>
+              <li class="pro_li_li">효능분류 : 자양강장변질제</li>
+            </ul>
+            <!--pro_li_ul-->
+          </li>
+          <li class="pro_li-2 pro-li">
+            <div class="pro-img">
               <img src="./images/p6.jpg" alt="product6">
-              <h3>검가드 치약</h3>
-              <ul class="pro_li_ul">
-                <li class="pro_li_li">제품구분 : 의약외품</li>
-                <li class="pro_li_li">효능분류 : 치약제 </li>
-              </ul>
-              <!--pro_li_ul-->
-            </a></li>
-          <li class="pro_li-4"><a href="#">
+            </div>
+            <h3>검가드 치약</h3>
+            <ul class="pro_li_ul">
+              <li class="pro_li_li">제품구분 : 의약외품</li>
+              <li class="pro_li_li">효능분류 : 치약제 </li>
+            </ul>
+            <!--pro_li_ul-->
+          </li>
+          <li class="pro_li-4 pro-li">
+            <div class="pro-img">
               <img src="./images/p7.jpg" alt="product7">
-              <h3>디에이덤 플러스 캔디</h3>
-              <ul class="pro_li_ul">
-                <li class="pro_li_li">제품구분 : 생활건강</li>
-                <li class="pro_li_li">효능분류 : 캔디류(식품)</li>
-              </ul>
-              <!--pro_li_ul-->
-            </a></li>
-          <li class="pro_li-4"><a href="#">
+            </div>
+            <h3>디에이덤 레몬캔디</h3>
+            <ul class="pro_li_ul">
+              <li class="pro_li_li">제품구분 : 생활건강</li>
+              <li class="pro_li_li">효능분류 : 캔디류(식품)</li>
+            </ul>
+            <!--pro_li_ul-->
+          </li>
+          <li class="pro_li-4 pro-li">
+            <div class="pro-img">
               <img src="./images/p8.jpg" alt="product8">
-              <h3>아일로 화이트치온</h3>
-              <ul class="pro_li_ul">
-                <li class="pro_li_li">제품구분 : 생활건강</li>
-                <li class="pro_li_li">효능분류 : 혼합비타민제</li>
-              </ul>
-              <!--pro_li_ul-->
-            </a></li>
-          <li class="pro_li-3"><a href="#">
+            </div>
+            <h3>아일로 화이트치온</h3>
+            <ul class="pro_li_ul">
+              <li class="pro_li_li">제품구분 : 생활건강</li>
+              <li class="pro_li_li">효능분류 : 혼합비타민제</li>
+            </ul>
+            <!--pro_li_ul-->
+          </li>
+          <li class="pro_li-3 pro-li">
+            <div class="pro-img">
               <img src="./images/p9.jpg" alt="product9">
-              <h3>비타민C 비타그란</h3>
-              <ul class="pro_li_ul">
-                <li class="pro_li_li">제품구분 : 건강기능식품</li>
-                <li class="pro_li_li">효능분류 : 영양제</li>
-              </ul>
-              <!--pro_li_ul-->
-            </a></li>
+            </div>
+            <h3>비타민C 비타그란</h3>
+            <ul class="pro_li_ul">
+              <li class="pro_li_li">제품구분 : 건강기능식품</li>
+              <li class="pro_li_li">효능분류 : 영양제</li>
+            </ul>
+            <!--pro_li_ul-->
+          </li>
+          <li class="pro_li-3 pro-li">
+            <div class="pro-img">
+              <img src="./images/p10.jpg" alt="product10">
+            </div>
+            <h3>오쏘몰 이뮨</h3>
+            <ul class="pro_li_ul">
+              <li class="pro_li_li">제품구분 : 건강기능식품</li>
+              <li class="pro_li_li">효능분류 : 영양제</li>
+            </ul>
+          </li>
+          <li class="pro_li-2 pro-li">
+            <div class="pro-img">
+              <img src="./images/p11.jpg" alt="product11">
+            </div>
+            <h3>가그린 오리지널</h3>
+            <ul class="pro_li_ul">
+              <li class="pro_li_li">제품구분 : 의약외품</li>
+              <li class="pro_li_li">효능분류 : 구강케어 </li>
+            </ul>
+            <!--pro_li_ul-->
+          </li>
         </ul>
         <!--pro_ul-->
       </div>
@@ -348,9 +388,10 @@
       <div class="numbers">
         <button class="leftMax">〈〈</button>
         <button class="left">〈</button>
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#">3</a>
+        <p class="pcP">1</p>
+        <p class="pcP">2</p>
+        <p class="mobileP">3</p>
+        <p class="mobileP">4</p>
         <button class="right">〉</button>
         <button class="rightMax">〉〉</button>
       </div>

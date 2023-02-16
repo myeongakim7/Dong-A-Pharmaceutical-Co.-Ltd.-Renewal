@@ -10,47 +10,98 @@ $(function () {
   });
 });
 
-// 제품 검색
+if (screen.width > 768) {
+  // 제품 검색
+  // product.js
+  $(function () {
+    $(".depth2 .depth2_ul .depth2_li").eq(0).on("click", normal);
+    function normal() {
+      $(".product-list .pro_ul").css({
+        top: 0,
+        height: "-100%",
+      });
+      $(".product-list .container").css({ height: "1500px" });
+      $(".product-list .pro_ul .pro-li").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-2").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-1").css({ display: "block" });
+    }
 
-// product.js
+    $(".depth2 .depth2_ul .depth2_li").eq(1).on("click", except);
+    function except() {
+      $(".product-list .container").css({ height: "1000px" });
+      $(".product-list .pro-ul .pro-li").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-1").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-3").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-4").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-2").css({ display: "block" });
+    }
 
-$(function () {
-  $(".depth2 .depth2_ul .depth2_li a")
-    .eq(0)
-    .on("click", function () {
-      $(".pro_ul .pro_li-2, .pro_li-3, .pro_li-4").addClass("none"),
-        $(".pro_ul .pro_li-1").addClass("show");
-      $(".pro_ul .pro_li-2").removeClass("show");
-    });
+    $(".depth2 .depth2_ul .depth2_li").eq(2).on("click", food);
+    function food() {
+      $(".product-list .container").css({ height: "1000px" });
+      $(".product-list .pro-ul  .pro-li").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-1").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-2").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-4").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-3").css({ display: "block" });
+    }
+    $(".depth2 .depth2_ul .depth2_li").eq(3).on("click", life);
+    function life() {
+      $(".product-list .container").css({ height: "1000px" });
+      $(".product-list .pro-ul .pro-li").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-1").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-2").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-3").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-4").css({ display: "block" });
+    }
+  });
+}
 
-  $(".depth2 .depth2_ul .depth2_li a")
-    .eq(1)
-    .on("click", function () {
-      $(".pro_ul .pro_li-1, .pro_li-3, .pro_li-4").addClass("none"),
-        $(".pro_ul .pro_li-2").addClass("show");
-      $(".pro_ul .pro_li-1").removeClass("show");
-      $(".pro_ul .pro_li-3").removeClass("show");
-    });
+// 모바일 버전
 
-  $(".depth2 .depth2_ul .depth2_li a")
-    .eq(2)
-    .on("click", function () {
-      $(".pro_ul .pro_li-1, .pro_li-2, .pro_li-4").addClass("none"),
-        $(".pro_ul .pro_li-3").addClass("show");
-      $(".pro_ul .pro_li-1").removeClass("show");
-      $(".pro_ul .pro_li-2").removeClass("show");
-      $(".pro_ul .pro_li-4").removeClass("show");
-    });
+if (screen.width < 769) {
+  // 제품 검색
+  // product.js
+  $(function () {
+    $(".depth2 .depth2_ul .depth2_li").eq(0).on("click", normal);
+    function normal() {
+      $(".product-list .pro_ul").css({
+        top: 0,
+        height: "-100%",
+      });
+      $(".product-list .container").css({ height: "1500px" });
+      $(".product-list .pro_ul .pro-li").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-2").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-1").css({ display: "block" });
+    }
 
-  $(".depth2 .depth2_ul .depth2_li a")
-    .eq(3)
-    .on("click", function () {
-      $(".pro_ul .pro_li-1, .pro_li-2, .pro_li-3").addClass("none"),
-        $(".pro_ul .pro_li-4").addClass("show");
-      $(".pro_ul .pro_li-1").removeClass("show");
-      $(".pro_ul .pro_li-2").removeClass("show");
-      $(".pro_ul .pro_li-3").removeClass("show");
-    });
-});
+    $(".depth2 .depth2_ul .depth2_li").eq(1).on("click", except);
+    function except() {
+      $(".product-list .container").css({ height: "1000px" });
+      $(".product-list .pro-ul .pro-li").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-1").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-3").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-4").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-2").css({ display: "block" });
+    }
 
-// $(선택자).eq(순서).on('click',function(){$(제외할 것들).addclass('none'), $(당사자).addclass('show'); 나머지 다 클래스 빼주기})
+    $(".depth2 .depth2_ul .depth2_li").eq(2).on("click", food);
+    function food() {
+      $(".product-list .container").css({ height: "1000px" });
+      $(".product-list .pro-ul  .pro-li").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-1").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-2").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-4").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-3").css({ display: "block" });
+    }
+    $(".depth2 .depth2_ul .depth2_li").eq(3).on("click", life);
+    function life() {
+      $(".product-list .container").css({ height: "1000px" });
+      $(".product-list .pro-ul .pro-li").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-1").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-2").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-3").css({ display: "none" });
+      $(".product-list .pro_ul .pro_li-4").css({ display: "block" });
+    }
+  });
+}

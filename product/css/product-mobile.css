@@ -188,16 +188,6 @@
   margin-top: 50px;
 }
 
-/* js */
-/* 선택지 = 제외할 항목을 none으로 하기 */
-.pro_ul .none {
-  display: none;
-}
-/* none으로 했으면 꼭 선택지를 addclass-show 써준다 */
-.pro_ul .show {
-  display: block;
-}
-
 /* search-box */
 
 .search-box {
@@ -225,7 +215,7 @@
   margin-left: 0.5em;
 }
 
-.search-box .search-box2 a img {
+.search-box .search-box2 img {
   width: 50%;
 }
 
@@ -245,13 +235,16 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-direction: column;
+  cursor: pointer;
 }
-.search-box .depth2 > .depth2_ul .depth2_li a img {
+.search-box .depth2 > .depth2_ul .depth2_li img {
   width: 40%;
 }
-.search-box .depth2 > .depth2_ul > .depth2_li > a h3 {
+.search-box .depth2 > .depth2_ul > .depth2_li > h3 {
   color: var(--sub);
   font-size: 18px;
+  margin-top: 5px;
 }
 
 /* product-list */
@@ -261,7 +254,7 @@
 
 .product-list .container {
   width: 280px;
-  height: 1300px;
+  height: 1800px;
   background-color: var(--bg);
   margin: 0 auto;
   padding: 50px 0;
@@ -272,25 +265,37 @@
   flex-wrap: wrap;
   gap: 18px;
 }
-.product-list .container .pro_ul img {
+.product-list .container .pro_ul .pro-li {
+  /* border: 1px solid red; */
+}
+.pro_ul .pro_li-1 .pro-img,
+.pro_ul .pro_li-2 .pro-img,
+.pro_ul .pro_li-3 .pro-img,
+.pro_ul .pro_li-4 .pro-img {
   width: 120px;
   height: 120px;
 }
+.pro_ul .pro_li-1 .pro-img img,
+.pro_ul .pro_li-2 .pro-img img,
+.pro_ul .pro_li-3 .pro-img img,
+.pro_ul .pro_li-4 .pro-img img {
+  width: 100%;
+}
 
-.pro_ul .pro_li-1 a > h3,
-.pro_ul .pro_li-2 a > h3,
-.pro_ul .pro_li-3 a > h3,
-.pro_ul .pro_li-4 a > h3 {
+.pro_ul .pro_li-1 > h3,
+.pro_ul .pro_li-2 > h3,
+.pro_ul .pro_li-3 > h3,
+.pro_ul .pro_li-4 > h3 {
   font-size: 15px;
   font-weight: 500;
   color: #000;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 5px;
 }
-.pro_ul .pro_li-1 a .pro_li_ul,
-.pro_ul .pro_li-2 a .pro_li_ul,
-.pro_ul .pro_li-3 a .pro_li_ul,
-.pro_ul .pro_li-4 a .pro_li_ul {
+.pro_ul .pro_li-1 .pro_li_ul,
+.pro_ul .pro_li-2 .pro_li_ul,
+.pro_ul .pro_li-3 .pro_li_ul,
+.pro_ul .pro_li-4 .pro_li_ul {
   list-style-type: none;
   /* margin-left: 2em; */
   margin-bottom: 30px;

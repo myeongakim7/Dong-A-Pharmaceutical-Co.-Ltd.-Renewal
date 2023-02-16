@@ -207,17 +207,19 @@
   width: 150px;
   height: 35px;
 }
+.main_bn_title p > a {
+  color: var(--sub);
+}
 
 /* about */
 
 .about .container {
   width: 280px;
   margin: 0 auto;
-  margin-top: 50px;
 }
 
 .about_bn {
-  width: 100%;
+  width: 280px;
   height: 240px;
   background-image: url(../images/about.jpg);
   background-size: cover;
@@ -230,7 +232,7 @@
   font-weight: 500;
   border-top: 3px solid var(--main);
   display: inline-block;
-  margin-bottom: 30px;
+  margin: 50px 0 30px 0;
 }
 
 .about_contents {
@@ -247,10 +249,12 @@
 .about .main_btn {
   border: 1px solid var(--sub);
   font-size: 15px;
-  padding: 10px 20px;
   width: 160px;
   height: 45px;
   margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .about .main_btn > a {
@@ -264,7 +268,7 @@
 
 .product .container {
   width: 280px;
-  height: 1684px;
+  height: 1500px;
   background-color: var(--bg);
   margin: 0 auto;
 }
@@ -274,8 +278,7 @@
   font-weight: 500;
   border-top: 3px solid var(--main);
   display: inline-block;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin: 50px 0 30px 0;
 }
 
 .product-contents {
@@ -290,22 +293,20 @@
 }
 .product1 {
   text-align: center;
-  border: 2px solid forestgreen;
-}
-/* 여기서부터 다시!!!!!모바일! */
-.product1 .product-img {
-  width: 280px;
-  height: 284px;
-  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
 }
 .product1 .product-img img {
-  width: 100%;
+  width: 280px;
+  height: 284px;
+  /* border: 1px solid red; */
 }
 
 .product1 h3 {
   font-size: 20px;
   font-weight: 500;
-  margin: 10px;
+  margin-bottom: 10px;
 }
 .product1 p {
   font-size: 16px;
@@ -315,15 +316,20 @@
 #next-btn {
   display: none;
 }
-
+.product .btn-box {
+  display: flex;
+  justify-content: center;
+}
 .product .main_btn {
   outline: 1px solid var(--sub);
   font-size: 15px;
-  padding: 10px 20px;
   width: 160px;
-  height: 40px;
+  height: 45px;
   text-align: center;
-  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
 }
 
 .main_btn > a {
@@ -341,6 +347,7 @@
 }
 
 .ethic-bn {
+  width: 280px;
   height: 240px;
   background-image: url(../images/Ethic.jpg);
   background-size: cover;
@@ -367,9 +374,11 @@
 .ethic .main-btn {
   border: 1px solid var(--sub);
   font-size: 15px;
-  padding: 10px 20px;
   width: 160px;
   height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   /* margin-bottom: 50px; */
   margin-top: 30px;
   text-align: center;
@@ -415,9 +424,11 @@
 .develop-box .main-btn {
   border: 1px solid #fff;
   font-size: 15px;
-  padding: 6px 14px;
   width: 160px;
   height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 30px;
 }
 
@@ -441,6 +452,7 @@
 }
 
 .news-img {
+  width: 280px;
   height: 240px;
   background-image: url(/main/images/news.jpg);
   background-repeat: no-repeat;
@@ -468,9 +480,11 @@
 .text-box .main-btn {
   border: 1px solid var(--sub);
   font-size: 15px;
-  padding: 10px 20px;
   width: 160px;
   height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -494,7 +508,7 @@
 }
 
 .recruit-img {
-  height: 240px;
+  width: 280px;
   height: 240px;
   background-image: url(/main/images/with.jpg);
   background-repeat: no-repeat;
@@ -519,12 +533,13 @@
 .recruit .text-box .main-btn {
   border: 1px solid var(--sub);
   font-size: 15px;
-  padding: 10px 20px;
   width: 160px;
   height: 45px;
-  margin-bottom: 50px;
-  margin-top: 30px;
+  margin: 30px 0 50px 0;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .text-box .main-btn > a {
