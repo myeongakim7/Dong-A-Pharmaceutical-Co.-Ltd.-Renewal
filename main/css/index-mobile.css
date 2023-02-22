@@ -14,19 +14,20 @@
 }
 
 /* header 좌측 로고 */
-
-.logo a img {
-  width: 152.57px;
-  height: 58px;
-}
-
 .logo {
-  height: 90px;
   display: flex;
   position: absolute;
   left: 0;
   top: 16px;
 }
+.logo a {
+  width: 152.57px;
+  height: 58px;
+}
+.logo a img {
+  width: 100%;
+}
+
 /* nav */
 .header_nav {
   display: none;
@@ -45,16 +46,21 @@
 .header_ui .between {
   display: none;
 }
-.lang {
+.hd_lang {
   display: none;
 }
 
 .m_btn a {
+  width: 18px;
+  height: 18px;
   display: flex;
   align-items: center;
   position: absolute;
   top: 42px;
   right: 21px;
+}
+.m_btn a img {
+  width: 100%;
 }
 
 /* site-map */
@@ -255,10 +261,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #fff;
 }
 
 .about .main_btn > a {
   color: var(--sub);
+}
+.about .main_btn:hover {
+  color: var(--sub);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+  transition: all ease 0.2s;
 }
 
 /* product */
@@ -335,6 +347,11 @@
 .main_btn > a {
   color: var(--sub);
 }
+.product .main_btn:hover {
+  color: var(--sub);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+  transition: all ease 0.2s;
+}
 
 /* Ethical management */
 .ethic {
@@ -387,7 +404,11 @@
 .ethic .main-btn > a {
   color: var(--sub);
 }
-
+.ethic .main-btn:hover {
+  color: var(--sub);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+  transition: all ease 0.2s;
+}
 /* Innovative Drug development */
 
 .develop {
@@ -435,7 +456,10 @@
 .develop-box .main-btn > a {
   color: #fff;
 }
-
+.develop-box .main-btn:hover {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+  transition: all ease 0.2s;
+}
 /* news */
 
 .news {
@@ -491,6 +515,11 @@
 .text-box .main-btn > a {
   color: var(--sub);
 }
+.text-box .main-btn:hover {
+  color: var(--sub);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+  transition: all ease 0.2s;
+}
 
 /* recruit */
 
@@ -542,8 +571,14 @@
   justify-content: center;
 }
 
-.text-box .main-btn > a {
+.recruit .text-box .main-btn > a {
   color: var(--sub);
+}
+
+.recruit .main_btn:hover {
+  color: var(--sub);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+  transition: all ease 0.2s;
 }
 
 /* footer */

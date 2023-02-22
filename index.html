@@ -29,6 +29,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
     rel="stylesheet" />
   <!--폰트-->
+  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <!-- //Google 번역 -->
   <link rel="stylesheet" href="./main/css/index-style.css" />
   <link rel="stylesheet" href="./main/css/index-pc.css" media="screen and (min-width:767px)" />
   <link rel="stylesheet" href="./main/css/index-mobile.css" media="screen and (max-width:767px)" />
@@ -38,6 +40,7 @@
 </head>
 
 <body>
+
   <header class="header">
     <h1 class="logo">
       <a href="./index.html">
@@ -113,21 +116,36 @@
 
     <div class="header_ui">
       <div class="mall">
-        <img src="./main/images/icon-cart.svg" alt="mall" />
+        <div class="mall-img">
+          <img src="./main/images/icon-cart.svg" alt="mall" />
+        </div>
         <a href="https://dmall.co.kr/product/index.html">&nbsp;동아제약 공식몰&nbsp;</a>
       </div>
       <!--mall-->
       <p class="between">&nbsp;| &nbsp;</p>
-      <div class="lang">
-        <a href="#"><img src="./main/images/icon-lang.svg" alt="lang" />&nbsp;&nbsp;EN</a>
+      <div id="google_translate_element" class="hd_lang">
+        <a href="#"><img src="./main/images/icon-lang.svg" alt="lang" /></a>
       </div>
       <div class="m_btn">
         <a href="#">
           <img src="./main/images/icon-menu.svg" alt="site-map-menu" />
         </a>
       </div>
+      <!-- m_btn -->
     </div>
+    <!-- header_ui -->
   </header>
+  <script>
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'ko',
+        includedLanguages: 'ko,zh-CN,zh-TW,ja,vi,th,tl,km,my,mn,ru,en,fr,ar',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+        autoDisplay: false
+      }, 'google_translate_element');
+    }
+  </script>
+
   <!-- site map -->
   <div class="site_map">
     <div class="site_map_upper">
