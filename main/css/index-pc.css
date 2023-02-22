@@ -586,7 +586,7 @@ nav > ul {
 .news-img {
   width: 900px;
   height: 560px;
-  background-image: url(../main/images/news.jpg);
+  background-image: url(../images/news.jpg);
   background-position: center center;
   background-size: cover;
 }
@@ -652,7 +652,7 @@ nav > ul {
   width: 900px;
   height: 560px;
   /* background-color: #000; */
-  background-image: url(../main/images/with.jpg);
+  background-image: url(/images/with.jpg);
   background-position: center center;
   background-size: cover;
 }
