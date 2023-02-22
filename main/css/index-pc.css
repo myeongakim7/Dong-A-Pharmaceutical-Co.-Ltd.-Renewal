@@ -652,7 +652,7 @@ nav > ul {
   width: 900px;
   height: 560px;
   /* background-color: #000; */
-  background-image: url(/images/with.jpg);
+  background-image: url(../images/with.jpg);
   background-position: center center;
   background-size: cover;
 }
