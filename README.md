@@ -30,6 +30,8 @@
   <h2>Tools</h2>
   <p>figma, github</p>
    <br>
+   <h2>Screenshot</h2>
+    <p><img src="/main/images/dong-a.jpg" alt="dong-a-screenshot"></p>
   <h2>
     Production process</h2>
   <h2>22/12/06</h2>
