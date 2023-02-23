@@ -1,12 +1,37 @@
-<h1>동아제약 리뉴얼 홈페이지</h1>
+ <h1>동아제약 리뉴얼 홈페이지</h1>
   <br />
-  <p>기존 동아제약 홈페이지 주소: http://www.dapharm.com/Main.da</p>
-  <p>피그마 시안
-    주소: https://www.figma.com/file/fbgRvPUbv7aLLrgMi9ujpi/%EB%8F%99%EC%95%84%EC%A0%9C%EC%95%BD-%EC%8B%9C%EC%95%88?node-id=0%3A1&t=206EUDhQFUICHHaa-1
+  <p>기존 동아제약 홈페이지: http://www.dapharm.com/Main.da</p>
+  <p>Demo: https://myeongakim7.github.io/Dong-A-Pharmaceutical-Co.-Ltd.-Renewal:</p>
+  <p>피그마 시안: <a href="https://www.figma.com/file/fbgRvPUbv7aLLrgMi9ujpi/%EB%8F%99%EC%95%84%EC%A0%9C%EC%95%BD-%EC%8B%9C%EC%95%88?node-id=0%3A1&t=Lw8WlG13yCJTkXBx-1" alt="figma">figma-address-Click</a>
   </p>
-  <p>깃허브 주소: /</p>
-  <p>개발 언어: </p>
-  <hr />
+  <br>
+  <h2>Production goal</h2>
+  <ul>
+    <li>기존 사이트 노후화 개선</li>
+    <li>웹/모바일 반응형 홈페이지 제작</li>
+    <li>브랜드 이미지 전달</li>
+    <li>시각적 자료 추가, 디자인 트렌드 반영</li>
+    <li>SEO 검색엔진 최적화 </li>
+  </ul>
+<br>
+  <h2>Description</h2>
+  <ul>
+    <li>반응형 홈페이지 제작</li>
+    <li>Setinterval 함수를 이용해 초 단위로 메인 배너 화면 변경 </li>
+    <li>이미지 슬라이드</li>
+    <li>페이지 넘기기</li>
+    <li>카테고리 선택 시 카테고리에 맞는 제품만 나오도록 구현</li>
+    <li>사이트맵 생성</li>
+  </ul>
+    <br>
+  <h2>Stack</h2>
+  <p></p>
+    <br>
+  <h2>Tools</h2>
+  <p>figma, github</p>
+   <br>
+  <h2>
+    Production process</h2>
   <h2>22/12/06</h2>
   <ul>
     <li>리뉴얼 전 피그마 스타일가이드 작성</li>
