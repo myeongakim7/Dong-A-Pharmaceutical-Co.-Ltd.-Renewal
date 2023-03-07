@@ -64,16 +64,21 @@ $(function () {
 $(function () {
   $(".header").mouseover(function () {
     $(".logo a img").attr("src", "./main/images/main-logo.svg");
-    $(".img_lang img").attr("src", "./main/images/icon-lang.svg");
+    $(".img_lang a img").attr("src", "./main/images/icon-lang.svg");
     $(".m_btn a img").attr("src", "/main/images/icon-menu.svg");
   });
   $(".header").mouseout(function () {
     $(".logo a img").attr("src", "./main/images/main-logo-white.svg");
-    $(".img_lang img").attr("src", "./main/images/icon-lang-white.svg");
+    $(".img_lang a img").attr("src", "./main/images/icon-lang-white.svg");
     $(".m_btn a img").attr("src", "/main/images/icon-menu-white.svg");
   });
 });
 
+$(function () {
+  $(".goog-te-combo").mouseout(function () {
+    $("this").css("color", "#000");
+  });
+});
 // 구글 번역 스크립트
 
 // function googleTranslateElementInit() {
