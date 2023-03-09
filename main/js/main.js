@@ -30,12 +30,6 @@ $(function () {
     "<a href='https://dmall.co.kr/product/list.html?cate_no=359'>비타그란 바로가기&nbsp;→</a>",
   ];
 
-  // let bnTitle_4 = [
-  //   "<a href='https://dmall.co.kr/product/index.html' style='color:var(--sub)'>공식몰 바로가기</a>",
-  //   "<a href='http://www.bacchusd.com/' style='color:#101A39'>박카스 바로가기</a>",
-  //   "<a href='https://dmall.co.kr/product/list.html?cate_no=359' style='color:#CE2424'>비타그란 바로가기</a>",
-  // ];
-
   let bg_img_num = 0;
 
   setInterval(function () {
@@ -106,23 +100,22 @@ $(function () {
 });
 
 // product 이전 / 다음 버튼으로 이미지 넘기기
-
-// 이미지 표시,비표시
-
+// keyframe으로 fade-in 효과 줬음
 $(function () {
+  // next 버튼을 누르면 오른쪽 이동
   $("#next-btn").on("click", function () {
-    $(".product-box .product1").removeClass("show"),
-      $(".product-box .product1").addClass("none");
-    $(".product-box .product2").removeClass("none"),
-      $(".product-box .product2").addClass("show");
+    $(".product-parents .product-box").css("transform", "translateX(-1440px)"),
+      $(".product-parents .product-box").css(
+        "animation",
+        "nextbtn 0.5s ease-in"
+      );
   });
-});
-
-$(function () {
+  // pre 버튼 누르면 왼쪽으로 이동
   $("#pre-btn").on("click", function () {
-    $(".product-box .product2").removeClass("show"),
-      $(".product-box .product2").addClass("none");
-    $(".product-box .product1").removeClass("none"),
-      $(".product-box .product1").addClass("show");
+    $(".product-parents .product-box").css("transform", "translateX(0)"),
+      $(".product-parents .product-box").css(
+        "animation",
+        "prebtn 0.5s ease-in"
+      );
   });
 });
