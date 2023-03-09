@@ -98,7 +98,7 @@
       <h2>23/03/07</h2>
   <ul>
     <li>구글 번역 api 커스텀</li>
-    <li></li>
+    <li>main -제품소개) 이전/다음 버튼 클릭 시 keyframe 활용해 fade-in효과를 줌</li>
   </ul>
   
 
