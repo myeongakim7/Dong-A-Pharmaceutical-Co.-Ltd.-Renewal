@@ -316,7 +316,7 @@ nav > ul {
   align-items: center;
 }
 .sub-bn .sub-bn-bg > h1 {
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 700;
   color: #fff;
 }
@@ -344,13 +344,13 @@ nav > ul {
 /* sub-title */
 .line {
   width: 200px;
-  height: 3px;
+  height: 4px;
   background-color: var(--main);
   margin-top: 64px;
 }
 
 .sub-title > h1 {
-  font-size: 45px;
+  font-size: 36px;
   font-weight: 500;
   margin-top: 133px;
 }
@@ -361,6 +361,7 @@ nav > ul {
 }
 .intro-box .container {
   width: 1520px;
+  height: 100vh;
 }
 .intro-box .intro-img {
   height: 500px;
@@ -375,7 +376,7 @@ nav > ul {
   width: 100%;
 }
 .intro-box .intro-text p {
-  font-size: 30px;
+  font-size: 24px;
   text-align: center;
   line-height: 50px;
 }
@@ -383,22 +384,23 @@ nav > ul {
 /* vision 1 */
 
 .vision1 {
-  padding: 150px 0;
   background-color: var(--bg);
 }
 .vision1 .container {
   width: 1520px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 .vision1 .vision-box {
   display: flex;
-  margin: 0 auto;
-  background-color: var(--bg);
-  height: 810px;
+  width: 1520px;
+  height: 663px;
 }
 
 .vision1 .vision-img {
-  height: 810px;
-  width: 100%;
+  height: 663px;
+  width: 776px;
   background-image: url(../images/vision1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -409,58 +411,54 @@ nav > ul {
 }
 
 .vision1 .text-box {
-  width: 620px;
-  position: relative;
+  width: 660px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 40px;
 }
 
 .vision1 .text-box > h1 {
   font-size: 40px;
   font-weight: 700;
-  position: absolute;
-  top: 260px;
-  left: 55px;
+  margin-bottom: 20px;
 }
 .vision1 .text-box p {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  position: absolute;
-  top: 360px;
-  left: 55px;
+  margin-bottom: 5px;
 }
 .vision1 .text-box p:nth-child(2) {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  position: absolute;
-  top: 455px;
-  left: 55px;
 }
 .vision1 .text-box p:last-child {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  position: absolute;
-  top: 550px;
-  left: 55px;
 }
 /* .vision2 */
 
 .vision2 {
-  padding: 150px 0;
+  padding: 100px 0;
 }
 .vision2 .container {
   width: 1520px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 .vision2 .vision-box {
   display: flex;
-  margin: 0 auto;
   width: 1520px;
+  height: 698px;
 }
 
 .vision2 .vision-img2 {
-  width: 900px;
-  height: 810px;
+  height: 698px;
+  width: 776px;
   background-image: url(../images/vision2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -472,25 +470,22 @@ nav > ul {
 }
 
 .vision2 .text-box {
-  width: 620px;
-  height: 810px;
-  position: relative;
+  width: 745px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 40px;
 }
 
 .vision2 .text-box > h1 {
   font-size: 40px;
   font-weight: 700;
-  position: absolute;
-  top: 264px;
-  left: 0;
+  margin-bottom: 20px;
 }
 .vision2 .text-box p {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  position: absolute;
-  bottom: 200px;
-  left: 0;
 }
 .vision2 .text-box .text-box-p {
   font-size: 18px;
@@ -501,22 +496,23 @@ nav > ul {
 /* vision 3 */
 
 .vision3 {
-  padding: 150px 0;
   background-color: var(--bg);
 }
 .vision3 .container {
   width: 1520px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 .vision3 .vision-box {
   display: flex;
-  margin: 0 auto;
-  background-color: var(--bg);
-  height: 810px;
+  width: 1520px;
+  height: 663px;
 }
 
 .vision3 .vision-img {
-  width: 100%;
-  height: 810px;
+  height: 663px;
+  width: 776px;
   background-image: url(../images/vision3.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -527,25 +523,23 @@ nav > ul {
 }
 
 .vision3 .text-box {
-  width: 620px;
-  position: relative;
+  width: 660px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 40px;
 }
 
 .vision3 .text-box > h1 {
   font-size: 40px;
   font-weight: 700;
-  position: absolute;
-  top: 250px;
-  left: 55px;
+  margin-bottom: 20px;
 }
 .vision3 .text-box p {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  position: absolute;
-  top: 380px;
-  left: 55px;
-  margin-top: 30px;
+  margin-bottom: 5px;
 }
 
 /* contact */
