@@ -43,6 +43,8 @@
     <!--폰트-->
     <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <!-- //Google 번역 -->
+    <link rel="stylesheet" href="https://unpkg.com/pageable@latest/dist/pageable.min.css">
+    <!-- pageable - css - cdn 주소 -->
     <link rel="stylesheet" href="./main/css/index-style.css" />
     <link
       rel="stylesheet"
@@ -60,7 +62,9 @@
   </head>
 
   <body>
-    <div id="header-banner-wrap">
+<div class="pg-wrapper">
+    <div id="wrap">
+    <div data-anchor="Page 1" id="page-1" class="header-banner-wrap pg-page pg-active">
       <header class="header">
         <div class="logo">
           <a href="./index.html"
@@ -190,7 +194,7 @@
         <div class="site_map_upper">
           <h1 class="site_map_logo">
             <a href="./index.html">
-              <img src="./main/images/main-logo1.svg" alt="logo" />
+              <img src="./main/images/main-logo.jpg" alt="logo" />
             </a>
           </h1>
           <div class="site_map_header_ui">
@@ -285,7 +289,6 @@
         </nav>
       </div>
       <!-- 사이트맵 -->
-      
       <div class="contents">
         <div class="main_bn">
           <div class="main_bn_title">
@@ -309,7 +312,7 @@
     </div>
     <!--header-banner-wrap-->
 
-    <div class="about">
+    <div data-anchor="Page 2" id="page-2" class="about pg-page">
       <div class="container">
         <h1 class="about_title">About</h1>
         <div class="about_bn"></div>
@@ -331,7 +334,7 @@
       </div>
       <!-- about -->
 
-      <div class="product">
+      <div data-anchor="Page 3" id="page-3" class="product pg-page">
         <div class="container">
           <div class="product-title">
             <h1>Product</h1>
@@ -340,10 +343,11 @@
             <button id="pre-btn">
               <i class="fa-solid fa-chevron-left fa-3x"></i>
             </button>
+            <!-- <a href="#"><i class="fa-solid fa-chevron-left fa-2x"></i></a> -->
 
             <div class="product-parents">
               <div class="product-box">
-                <div class="product1">
+                <div class="product1 show">
                   <a href="./product/product.html">
                     <div class="product-img">
                       <img src="./main/images/product1.svg" alt="product1" />
@@ -357,7 +361,7 @@
                   </a>
                 </div>
                 <!--product1-->
-                <div class="product1">
+                <div class="product1 show">
                   <a href="./product/product.html">
                     <div class="product-img">
                       <img src="./main/images/product2.svg" alt="product2" />
@@ -370,7 +374,7 @@
                   </a>
                 </div>
                 <!--product1-->
-                <div class="product1">
+                <div class="product1 show">
                   <a href="./product/product.html">
                     <div class="product-img">
                       <img src="./main/images/product3.svg" alt="product3" />
@@ -383,8 +387,7 @@
                   </a>
                 </div>
                 <!--product1-->
-          
-                <div class="product1">
+                <div class="product2">
                   <a href="./product/product.html">
                     <div class="product-img">
                       <img src="./main/images/product4.svg" alt="product4" />
@@ -397,7 +400,7 @@
                   </a>
                 </div>
                 <!--product1-->
-                <div class="product1">
+                <div class="product2">
                   <a href="./product/product.html">
                     <div class="product-img">
                       <img src="./main/images/product5.svg" alt="product5" />
@@ -410,7 +413,7 @@
                   </a>
                 </div>
                 <!--product1-->
-                <div class="product1">
+                <div class="product2">
                   <a href="./product/product.html">
                     <div class="product-img">
                       <img src="./main/images/product6.svg" alt="product6" />
@@ -423,8 +426,6 @@
                   </a>
                 </div>
                 <!--product1-->
-        
-
               </div>
               <!--product-box-->
             </div>
@@ -584,5 +585,8 @@
           </div>
         </div>
       </footer>
+    </div><!--wrap--></div><!--pg-wrapper-->
+      <!-- pageable - cdn 주소 -->
+      <script src="https://unpkg.com/pageable@latest/dist/pageable.min.js"></script>
   </body>
 </html>

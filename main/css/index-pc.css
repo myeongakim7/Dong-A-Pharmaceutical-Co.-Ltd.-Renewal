@@ -3,7 +3,7 @@ html {
   scroll-behavior: smooth;
 }
 
-#header-banner-wrap {
+#page-1 {
   height: 100vh;
   background-image: url(../images/main-visual\ 1.jpg);
   background-size: cover;
@@ -77,6 +77,9 @@ nav > ul {
   font-size: 16px;
 }
 
+.header_nav {
+  /* border: 2px solid salmon; */
+}
 .dep1_ul {
   height: 100%;
   display: flex;
@@ -290,7 +293,6 @@ nav > ul {
 }
 
 .site_map_dep1_li {
-  /* border: 1px solid red; */
   width: 30%;
   position: relative;
   padding-bottom: 10em;
@@ -308,7 +310,6 @@ nav > ul {
 .site_map_dep2_li {
   line-height: 2rem;
   margin-top: 20px;
-  /* border: 1px solid seagreen; */
 }
 
 .site_map_dep2_li > a {
@@ -463,59 +464,52 @@ nav > ul {
 .product-parents {
   width: 1440px;
   height: 550px;
-  /* border: 2px solid red; */
   overflow: hidden;
 } /*부모 */
 .product-box {
   width: 2880px;
-  height: 550px;
+  height: 750px;
   display: flex;
   gap: 35px;
+  /* border: 1px solid red; */
 } /* 자식 */
 
-.product1 {
+.product1,
+.product2 {
   width: 450px;
   height: 550px;
   text-align: center;
+  /* border: 1px solid red; */
 }
-.product1 .product-img {
+.product1 .product-img,
+.product2 .product-img {
   width: 450px;
   height: 412px;
 }
-.product1 .product-img {
+.product1 .product-img img,
+.product2 .product-img img {
   width: 100%;
 }
 
-.product1 h3 {
+.product1 h3,
+.product2 h3 {
   font-size: 24px;
   font-weight: 700;
   margin: 10px;
 }
-.product1 p {
+.product1 p,
+.product2 p {
   font-size: 18px;
   font-weight: 400;
 }
-/* 이전/다음 버튼 클릭시 fade-in 효과주기  */
-@keyframes nextbtn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes prebtn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.product-box .product1 {
+/* 이미지 표시 */
+.product-box .show {
   z-index: 10;
-  transition: all 1s;
+  opacity: 1;
+}
+/* 이미지 비표시 */
+.product-box .none {
+  display: none;
 }
 
 #pre-btn,
@@ -523,7 +517,6 @@ nav > ul {
   background-color: transparent;
   color: var(--sub);
   border: none;
-  cursor: pointer;
 }
 .product .main_btn {
   outline: 1px solid var(--sub);
@@ -704,8 +697,6 @@ nav > ul {
 .recruit {
   height: 100vh;
   padding: 100px 0;
-  display: flex;
-  align-items: center;
 }
 .recruit .container {
   width: 1920px;
