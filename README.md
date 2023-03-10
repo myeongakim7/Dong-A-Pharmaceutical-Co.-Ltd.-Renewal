@@ -99,6 +99,9 @@
   <ul>
     <li>구글 번역 api 커스텀</li>
     <li>main -제품소개) 이전/다음 버튼 클릭 시 keyframe 활용해 fade-in효과를 줌</li>
+  </ul><h2>23/03/10</h2>
+  <ul>
+    <li>main 모바일버전 수정</li>
+    <li>버튼, 이미지 호버 효과줌 </li>
   </ul>
-  
 
