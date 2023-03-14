@@ -26,7 +26,7 @@
   </ul>
     <br>
   <h2>Stack</h2>
-  <p></p>
+  <p>HTML, CSS, JavaScript, Jquery</p>
     <br>
   <h2>Tools</h2>
   <p>figma, github</p>
