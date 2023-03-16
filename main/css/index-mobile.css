@@ -1,32 +1,32 @@
 /* header */
 
+#header-banner-wrap {
+  max-width: 100%;
+  height: 410px;
+  background-image: url(../images/main-visual\ 1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .header {
   height: 90px;
   display: flex;
   justify-content: space-between;
-  padding: 0 40px;
+  align-items: center;
+  padding: 0 20px;
   z-index: 1;
-  position: relative;
-}
-
-.header a {
-  color: #000;
 }
 
 /* header 좌측 로고 */
-
-.logo a img {
-  width: 152.57px;
-  height: 58px;
+.logo a {
+  width: 120px;
+  height: 22px;
+}
+.logo a > img {
+  width: 100%;
 }
 
-.logo {
-  height: 90px;
-  display: flex;
-  position: absolute;
-  left: 0;
-  top: 16px;
-}
 /* nav */
 .header_nav {
   display: none;
@@ -45,16 +45,16 @@
 .header_ui .between {
   display: none;
 }
-.lang {
+.img_lang {
+  display: none;
+}
+.hd_lang {
   display: none;
 }
 
 .m_btn a {
   display: flex;
   align-items: center;
-  position: absolute;
-  top: 42px;
-  right: 21px;
 }
 
 /* site-map */
@@ -149,32 +149,13 @@
   max-height: 240px;
 }
 
-/* sub-banner */
-
-.sub-bn .sub-bn-bg {
-  height: 240px;
-  background-image: url(../images/sub-banner.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.sub-bn .sub-bn-bg > h1 {
-  font-size: 26px;
-  font-weight: 700;
-  color: #fff;
-}
-
 /* main-banner */
 .main_bn {
-  max-width: 100%;
   height: 320px;
-  background-image: url(../images/main-visual\ 1.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  /* position: relative; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .main_bn_title {
   display: flex;
@@ -184,42 +165,55 @@
   align-items: center;
   text-align: center;
 }
-
-.main_bn_title h3 {
+.main_bn_title h2 {
   font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+.main_bn_title h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.main_bn_title h4 {
+  font-size: 14px;
   font-weight: 500;
   color: #fff;
   margin-bottom: 20px;
 }
-.main_bn_title h2 {
-  font-size: 28px;
-  font-weight: 500;
-  color: #fff;
-  margin-top: 70px;
-}
+
 .main_bn_title > p {
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--sub);
-  background-color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid #fff;
   border-radius: 50px;
-  padding: 5px 5px;
-  width: 150px;
-  height: 35px;
+  width: 180px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .main_bn_title p > a {
-  color: var(--sub);
+  color: #fff;
 }
+.main_bn_title p:hover {
+  background-color: #ffffff21;
+  transition: 0.3s ease-in-out;
+}
+
+/* 전체 320px / - container의 width값 : 300px */
 
 /* about */
 
 .about .container {
-  width: 280px;
+  width: 300px;
   margin: 0 auto;
 }
 
 .about_bn {
-  width: 280px;
+  width: 300px;
   height: 240px;
   background-image: url(../images/about.jpg);
   background-size: cover;
@@ -229,28 +223,24 @@
 
 .about_title {
   font-size: 26px;
-  font-weight: 500;
+  font-weight: 700;
   border-top: 3px solid var(--main);
   display: inline-block;
   margin: 50px 0 30px 0;
 }
 
-.about_contents {
-  font-size: 30px;
-  font-weight: 400;
-  margin-top: 40px;
-}
-
 .about_contents p {
   font-size: 15px;
-  margin-bottom: 20px;
+  font-weight: 400;
+  margin: 40px 0 25px 0;
 }
 
 .about .main_btn {
   border: 1px solid var(--sub);
   font-size: 15px;
-  width: 160px;
-  height: 45px;
+  font-weight: 500;
+  width: 150px;
+  height: 40px;
   margin-bottom: 50px;
   display: flex;
   align-items: center;
@@ -260,22 +250,37 @@
 .about .main_btn > a {
   color: var(--sub);
 }
+.about .main_btn:hover {
+  border: 1px solid var(--sub);
+  font-size: 15px;
+  font-weight: 500;
+  width: 150px;
+  height: 40px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out;
+  background-color: #00000008;
+}
 
 /* product */
 .product {
   background-color: var(--bg);
 }
-
+.product a {
+  color: #000;
+}
 .product .container {
-  width: 280px;
-  height: 1500px;
+  width: 300px;
+  height: 1450px;
   background-color: var(--bg);
   margin: 0 auto;
 }
 
 .product-title > h1 {
   font-size: 26px;
-  font-weight: 500;
+  font-weight: 700;
   border-top: 3px solid var(--main);
   display: inline-block;
   margin: 50px 0 30px 0;
@@ -284,13 +289,14 @@
 .product-contents {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
-.product2 {
-  display: none;
+.product-box {
+  width: 300px;
+  height: 1200px;
+  /* border: 2px solid saddlebrown; */
 }
-.product a {
-  color: #000;
-}
+
 .product1 {
   text-align: center;
   display: flex;
@@ -298,9 +304,8 @@
   margin-bottom: 30px;
 }
 .product1 .product-img img {
-  width: 280px;
+  width: 300px;
   height: 284px;
-  /* border: 1px solid red; */
 }
 
 .product1 h3 {
@@ -321,15 +326,16 @@
   justify-content: center;
 }
 .product .main_btn {
-  outline: 1px solid var(--sub);
+  border: 1px solid var(--sub);
   font-size: 15px;
-  width: 160px;
-  height: 45px;
+  font-weight: 500;
+  width: 150px;
+  height: 40px;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 30px 0;
+  margin-top: 30px;
 }
 
 .main_btn > a {
@@ -342,12 +348,12 @@
 }
 
 .ethic .container {
-  width: 280px;
+  width: 300px;
   margin: 0 auto;
 }
 
 .ethic-bn {
-  width: 280px;
+  width: 300px;
   height: 240px;
   background-image: url(../images/Ethic.jpg);
   background-size: cover;
@@ -357,7 +363,7 @@
 
 .ethic-title > h1 {
   font-size: 26px;
-  font-weight: 500;
+  font-weight: 700;
   border-top: 3px solid var(--main);
   display: inline-block;
   margin-bottom: 30px;
@@ -367,19 +373,17 @@
   font-size: 16px;
   font-weight: 400;
   margin-top: 30px;
-  /* display: flex;
-  justify-content: space-between; */
 }
 
 .ethic .main-btn {
   border: 1px solid var(--sub);
   font-size: 15px;
-  width: 160px;
-  height: 45px;
+  font-weight: 500;
+  width: 150px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* margin-bottom: 50px; */
   margin-top: 30px;
   text-align: center;
 }
@@ -388,27 +392,40 @@
   color: var(--sub);
 }
 
+.ethic .main-btn:hover {
+  border: 1px solid var(--sub);
+  font-size: 15px;
+  font-weight: 500;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out;
+  background-color: #00000008;
+}
+
 /* Innovative Drug development */
 
 .develop {
   padding: 50px 0;
 }
-.develop .container {
-  width: 280px;
-  margin: 0 auto;
-}
+/* .develop_bg {
+  border: 2px solid darkblue;
+} */
 .develop-box {
-  background-image: url(..//images/development.jpg);
+  background-image: url(../images/development.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 280px;
-  height: 290px;
+  width: 320px;
+  height: 320px;
   color: #fff;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
+  padding: 10px;
 }
 .develop-box > h1 {
   font-size: 24px;
@@ -417,23 +434,36 @@
   margin-bottom: 10px;
 }
 .develop-box > p {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
-  /* margin-bottom: 30px; */
 }
 .develop-box .main-btn {
   border: 1px solid #fff;
   font-size: 15px;
-  width: 160px;
+  font-weight: 500;
+  width: 150px;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .develop-box .main-btn > a {
   color: #fff;
+}
+
+.develop-box .main-btn:hover {
+  border: 1px solid #fff;
+  font-size: 15px;
+  font-weight: 500;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out;
+  background-color: #00000016;
 }
 
 /* news */
@@ -443,23 +473,21 @@
   background-color: var(--bg);
 }
 .news .container {
-  width: 280px;
-  margin: 0 auto;
+  width: 300px;
+  /margin: 0 auto;
 }
 
 .news-box {
-  background-color: var(--bg);
+  display: flex;
+  flex-direction: column;
 }
 
 .news-img {
-  width: 280px;
+  width: 300px;
   height: 240px;
-  background-image: url(/main/images/news.jpg);
+  background-image: url(../images/news.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-}
-.news-img img {
-  width: 100%;
 }
 
 .news .text-box {
@@ -468,7 +496,7 @@
 
 .text-box > h1 {
   font-size: 26px;
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 15px;
 }
 .text-box p {
@@ -480,8 +508,9 @@
 .text-box .main-btn {
   border: 1px solid var(--sub);
   font-size: 15px;
-  width: 160px;
-  height: 45px;
+  font-weight: 500;
+  width: 150px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -492,6 +521,19 @@
   color: var(--sub);
 }
 
+.text-box .main-btn:hover {
+  border: 1px solid var(--sub);
+  font-size: 15px;
+  font-weight: 500;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out;
+  background-color: #00000008;
+}
+
 /* recruit */
 
 .recruit {
@@ -500,7 +542,7 @@
 
 .recruit .container {
   margin: 0 auto;
-  width: 280px;
+  width: 300px;
 }
 .recruit .recruit-box {
   display: flex;
@@ -508,16 +550,13 @@
 }
 
 .recruit-img {
-  width: 280px;
+  width: 300px;
   height: 240px;
-  background-image: url(/main/images/with.jpg);
+  background-image: url(../images/with.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   margin-bottom: 30px;
-}
-.recruit-img img {
-  width: 100%;
 }
 
 .recruit .text-box > h1 {
@@ -533,8 +572,9 @@
 .recruit .text-box .main-btn {
   border: 1px solid var(--sub);
   font-size: 15px;
-  width: 160px;
-  height: 45px;
+  font-weight: 500;
+  width: 150px;
+  height: 40px;
   margin: 30px 0 50px 0;
   text-align: center;
   display: flex;
@@ -546,10 +586,23 @@
   color: var(--sub);
 }
 
+.recruit .text-box .main-btn:hover {
+  border: 1px solid var(--sub);
+  font-size: 15px;
+  font-weight: 500;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out;
+  background-color: #00000008;
+}
+
 /* footer */
 
 .footer {
-  margin-top: 100px;
+  margin-top: 50px;
   height: 223px;
   display: flex;
   border-top: 1px solid #ccc;
