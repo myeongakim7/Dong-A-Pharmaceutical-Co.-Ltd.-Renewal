@@ -412,12 +412,12 @@ nav > ul {
 
 .product-list .container {
   width: 1520px;
-  height: 3000px;
+  height: 1520px;
   background-color: var(--bg);
   margin: 0 auto;
   padding-top: 100px;
-  /* position: relative; */
-  /* background-color: rebeccapurple; */
+  position: relative;
+  overflow: hidden;
 }
 
 .product-list .container .pro_ul {
@@ -427,7 +427,7 @@ nav > ul {
 }
 
 .product-list .container .pro_ul .pro-li {
-  /* border: 1px solid red; */
+  margin-bottom: 30px;
 }
 
 .pro_ul .pro_li-1 > h3,
@@ -480,34 +480,38 @@ nav > ul {
   justify-content: center;
   gap: 30px;
   font-size: 14px;
+  cursor: pointer;
 }
 .product .dial .numbers button {
   color: #000;
   background-color: transparent;
   border: none;
 }
-.product .dial .numbers a {
-  margin-left: 28px;
-  margin-right: 26px;
-  color: #000;
+
+.dial .numbers .mobileP {
+  display: none;
 }
 .product .dial .numbers .leftMax {
   margin-right: 26.5px;
+  cursor: pointer;
 }
 .product .dial .numbers .left {
   margin-right: 20px;
   color: var(--main);
   font-size: 16px;
   font-weight: 700;
+  cursor: pointer;
 }
 .product .dial .numbers .right {
   margin-left: 20px;
   color: var(--main);
   font-size: 16px;
   font-weight: 700;
+  cursor: pointer;
 }
 .product .dial .numbers .rightMax {
   margin-left: 26.5px;
+  cursor: pointer;
 }
 
 /* footer */
