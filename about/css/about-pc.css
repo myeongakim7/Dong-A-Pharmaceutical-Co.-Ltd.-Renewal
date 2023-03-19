@@ -246,7 +246,7 @@ nav > ul {
 }
 
 .site_map_logo {
-  width: 20%;
+  width: 15%;
 }
 
 .site_map_header_ui {
@@ -543,21 +543,21 @@ nav > ul {
 }
 
 /* contact */
-.contact .container {
+#contact .container {
   width: 1520px;
 }
 
-.contact .menu {
+#contact .menu {
   margin-top: 150px;
   margin-bottom: 88px;
 }
 
-.contact .menu h1 {
+#contact .menu h1 {
   border-top: 6px solid var(--main);
   display: inline-block;
 }
 
-.contact .map-text-box {
+#contact .map-text-box {
   margin-top: 56px;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
@@ -565,28 +565,28 @@ nav > ul {
   padding: 30px;
 }
 
-.contact .map-text-box .map-text {
+#contact .map-text-box .map-text {
   display: flex;
   margin-bottom: 30px;
   border-bottom: 1px solid #ccc;
   padding: 10px;
 }
-.contact .map-text-box .map-text h3 {
+#contact .map-text-box .map-text h3 {
   font-size: 30px;
   font-weight: 400;
   margin-left: 41px;
 }
-.contact .map-text-box .map-text p {
+#contact .map-text-box .map-text p {
   font-size: 20px;
 }
 
-.contact .map-text-box .map-text .txt2 {
+#contact .map-text-box .map-text .txt2 {
   margin-left: 181px;
 }
-.contact .map-text-box .map-text .txt3 {
+#contact .map-text-box .map-text .txt3 {
   margin-left: 155px;
 }
-.contact .map-text-box .map-text .txt4 {
+#contact .map-text-box .map-text .txt4 {
   margin-left: 126px;
 }
 

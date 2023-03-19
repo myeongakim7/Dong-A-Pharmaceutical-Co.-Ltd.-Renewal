@@ -157,8 +157,6 @@ nav > ul {
   margin-right: 45px;
   height: 100%;
   width: 100%;
-  /* border: 1px solid red;
-  background-color: darksalmon; */
 }
 /* 구글 번역 api 커스텀 */
 .goog-te-gadget {
@@ -196,9 +194,9 @@ nav > ul {
 .goog-te-gadget-simple {
   border-style: none !important;
 }
-.goog-te-gadget-simple img {
+/* .goog-te-gadget-simple img {
   display: none;
-}
+} */
 .goog-te-menu-value span:nth-of-type(1) {
   margin-right: 1rem;
 }
@@ -246,7 +244,7 @@ nav > ul {
 }
 
 .site_map_logo {
-  width: 25%;
+  width: 15%;
 }
 
 .site_map_header_ui {
@@ -257,7 +255,7 @@ nav > ul {
   width: 80%;
 }
 .site_map_close_btn a img {
-  width: 10%;
+  width: 5%;
 }
 
 /* site_map 하단 */

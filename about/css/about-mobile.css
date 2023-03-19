@@ -321,7 +321,7 @@
 }
 
 /* contact */
-.contact .container {
+#contact .container {
   width: 280px;
   margin: 0 auto;
 }
@@ -330,18 +330,18 @@
   margin-bottom: 300px;
 } */
 
-.contact .menu {
+#contact .menu {
   margin-top: 50px;
   margin-bottom: 30px;
 }
 
-.contact .menu h1 {
+#contact .menu h1 {
   font-size: 24px;
   border-top: 3px solid var(--main);
   display: inline-block;
 }
 
-.contact .map-text-box {
+#contact .map-text-box {
   margin-top: 30px;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
@@ -349,28 +349,28 @@
   /* padding: 30px; */
 }
 
-.contact .map-text-box .map-text {
+#contact .map-text-box .map-text {
   display: flex;
   /* margin-bottom: 10px; */
   border-bottom: 1px solid #ccc;
   padding: 10px;
 }
-.contact .map-text-box .map-text h3 {
+#contact .map-text-box .map-text h3 {
   font-size: 18px;
   font-weight: 400;
   /* margin-left: 41px; */
 }
-.contact .map-text-box .map-text p {
+#contact .map-text-box .map-text p {
   font-size: 15px;
 }
 
-.contact .map-text-box .map-text .txt2 {
+#contact .map-text-box .map-text .txt2 {
   margin-left: 45px;
 }
-.contact .map-text-box .map-text .txt3 {
+#contact .map-text-box .map-text .txt3 {
   margin-left: 30px;
 }
-.contact .map-text-box .map-text .txt4 {
+#contact .map-text-box .map-text .txt4 {
   margin-left: 13px;
 }
 

@@ -59,12 +59,12 @@ $(function () {
   $(".header").mouseover(function () {
     $(".logo a img").attr("src", "./main/images/main-logo.svg");
     $(".img_lang a img").attr("src", "./main/images/icon-lang.svg");
-    $(".m_btn a img").attr("src", "/main/images/icon-menu.svg");
+    $(".m_btn a img").attr("src", "./main/images/icon-menu.svg");
   });
   $(".header").mouseout(function () {
     $(".logo a img").attr("src", "./main/images/main-logo-white.svg");
     $(".img_lang a img").attr("src", "./main/images/icon-lang-white.svg");
-    $(".m_btn a img").attr("src", "/main/images/icon-menu-white.svg");
+    $(".m_btn a img").attr("src", "./main/images/icon-menu-white.svg");
   });
 });
 

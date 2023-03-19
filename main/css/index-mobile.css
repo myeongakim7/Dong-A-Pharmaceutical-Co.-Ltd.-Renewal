@@ -85,9 +85,12 @@
   justify-content: space-between;
 }
 
-.site_map_logo a img {
-  width: 100x;
+.site_map_logo {
+  width: 100px;
   height: 40px;
+}
+.site_map_logo a img {
+  width: 100%;
 }
 
 /* site_map 하단*/
