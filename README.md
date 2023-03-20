@@ -24,13 +24,21 @@
     <li>카테고리 선택 시 카테고리에 맞는 제품만 나오도록 구현</li>
     <li>사이트맵 생성</li>
   </ul>
-    <br>
-  <h2>Stack</h2>
-  <p>HTML, CSS, JavaScript, Jquery</p>
-    <br>
-  <h2>Tools</h2>
-  <p>figma, github</p>
-   <br>
+  <br>
+<h2>Stack</h2>
+<div style="display:flex">
+<img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+<img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
+</div>
+<br>
+<h2>Tool</h2>
+<div style="display:flex">
+<img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+</div>
+<br>
    <h2>Screenshot</h2>
     <p><img src="/main/images/capture.jpg" alt="dong-a-screenshot"></p>
   <h2>
