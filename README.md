@@ -1,3 +1,5 @@
+<img src="https://capsule-render.vercel.app/api?type=slice&color=029EC3&fontColor=5B5A5E&height=150&section=header&text=Dong%20A&fontSize=60" /> 
+ 
  <h1>동아제약 리뉴얼 홈페이지</h1>
   <br />
   <p>기존 동아제약 홈페이지: http://www.dapharm.com/Main.da</p>
