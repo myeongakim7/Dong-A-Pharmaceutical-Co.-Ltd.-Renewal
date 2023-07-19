@@ -373,9 +373,14 @@ nav > ul {
   font-size: 28px;
   background-color: none;
   margin-left: 1em;
-  margin-right: 1em;
 }
-.search-box2 img {
+.search-box2 #search-btn {
+  width: 45px;
+  height: 45px;
+  background-color: transparent;
+  border: none;
+}
+.search-box2 .search2 img {
   width: 100%;
 }
 
