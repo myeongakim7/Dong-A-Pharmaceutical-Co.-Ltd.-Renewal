@@ -190,7 +190,8 @@
 
 .search-box .search-box2 {
   display: flex;
-  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
 }
 .search-box .search-box2 > h2 {
   display: inline-block;
@@ -206,9 +207,14 @@
   background-color: none;
   margin-left: 0.5em;
 }
-
-.search-box .search-box2 img {
-  width: 50%;
+.search-box2 #search-btn {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+}
+.search-box2 #search-btn img {
+  width: 100%;
 }
 
 /* search-box > depth2_ul */

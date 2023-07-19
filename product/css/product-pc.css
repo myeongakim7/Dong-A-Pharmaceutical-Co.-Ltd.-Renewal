@@ -380,7 +380,7 @@ nav > ul {
   background-color: transparent;
   border: none;
 }
-.search-box2 .search2 img {
+.search-box2 #search-btn img {
   width: 100%;
 }
 

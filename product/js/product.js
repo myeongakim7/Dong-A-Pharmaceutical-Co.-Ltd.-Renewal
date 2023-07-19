@@ -232,4 +232,37 @@ if (screen.width < 769) {
       });
     });
   });
+
+  //  검색
+
+  let itemArr = [];
+  let list = document.getElementsByClassName("pro-li");
+
+  for (i = 0; i < list.length; i++) {
+    itemArr.push($(".pro-li .drug").eq(`${i}`).text());
+  }
+  console.log(itemArr[1]);
+
+  $("#search-btn").on("click", search);
+
+  function search() {
+    let result = itemArr.indexOf($("#search").val());
+    console.log(result);
+    // 숫자 나옴
+
+    $(".pro_ul .pro-li").css({
+      display: "none",
+    });
+    $(".pro_ul .pro-li").eq(result).css({
+      display: "block",
+    });
+    $(".dial .pcP").css({
+      display: "none",
+    });
+    $(".dial .pcP").eq(0).css({
+      display: "block",
+    });
+
+    return false;
+  }
 }
